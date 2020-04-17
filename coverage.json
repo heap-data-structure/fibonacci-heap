@@ -1,0 +1,81 @@
+{
+  "coverage": "64.7%",
+  "expectCount": 34,
+  "actualCount": 22,
+  "files": {
+    "src/FibonacciHeap.js": {
+      "expectCount": 16,
+      "actualCount": 15,
+      "undocumentLines": [
+        26
+      ]
+    },
+    "src/Node.js": {
+      "expectCount": 9,
+      "actualCount": 3,
+      "undocumentLines": [
+        1,
+        2,
+        3,
+        14,
+        15,
+        16
+      ]
+    },
+    "src/cascading_cut.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        3
+      ]
+    },
+    "src/consolidate.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/cut.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        3
+      ]
+    },
+    "src/fib_heap_link.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/list_concatenate.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "src/list_insert.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/list_iter.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "src/list_remove.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/list_reset_parent.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    }
+  }
+}

@@ -1,0 +1,1535 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/FibonacciHeap.js",
+    "content": "import Node from './Node';\n\nimport list_insert from './list_insert';\nimport list_remove from './list_remove';\nimport list_concatenate from './list_concatenate';\nimport list_reset_parent from './list_reset_parent';\n\nimport consolidate from './consolidate';\nimport cut from './cut';\nimport cascading_cut from './cascading_cut';\n\n/**\n * See CLRS09 Chapter 19 on the Fibonacci Heap.\n */\nexport default class FibonacciHeap {\n\t/**\n\t * Make-heap: creates a new empty heap.\n\t *\n\t * To make an empty Fibonacci heap, the MAKE-FIB-HEAP procedure\n\t * allocates and returns the Fibonacci heap object H, where H.n = 0 and\n\t * H.min = NIL ; there are no trees in H. Because t(H) = 0 and m(H) = 0,\n\t * the potential of the empty Fibonacci heap is pot(H) = 0. The amortized\n\t * cost of MAKE-FIB-HEAP is thus equal to its O(1) actual cost.\n\t */\n\tconstructor(compare) {\n\t\tthis.compare = compare; // Comparison function\n\t\t/**\n\t\t * We access a given Fibonacci heap H by a pointer H.min to the root of\n\t\t * a tree containing the minimum key; we call this node the minimum\n\t\t * node of the Fibonacci heap. If more than one root has a key with the\n\t\t * minimum value, then any such root may serve as the minimum node.\n\t\t * When a Fibonacci heap H is empty, H.min is NIL.\n\t\t */\n\t\tthis.min = null;\n\t}\n\n\t/**\n\t * Find-min: simply return the top element of the heap.\n\t */\n\thead() {\n\t\tif (this.min === null) return undefined;\n\t\treturn this.min.value;\n\t}\n\n\t/**\n\t * Minimum: return a pointer to the element whose key is minimum\n\t *\n\t * The minimum node of a Fibonacci heap H is given by the pointer H.min, so\n\t * we can find the minimum node in O(1) actual time. Because the potential\n\t * of H does not change, the amortized cost of this operation is equal to\n\t * its O(1) actual cost.\n\t */\n\theadreference() {\n\t\treturn this.min;\n\t}\n\n\t/**\n\t */\n\tpop() {\n\t\tconst min = this.popreference();\n\t\treturn min === null ? undefined : min.value;\n\t}\n\n\t/**\n\t * FIB-HEAP-EXTRACT-MIN(H):\n\t *\n\t * Extracting the minimum node\n\t *\n\t * The process of extracting the minimum node is the most complicated of\n\t * the operations presented in this section. It is also where the delayed\n\t * work of consolidating trees in the root list finally occurs. The\n\t * following pseudocode extracts the minimum node. The code assumes for\n\t * convenience that when a node is removed from a linked list, pointers\n\t * remaining in the list are updated, but pointers in the extracted node\n\t * are left unchanged. It also calls the auxiliary procedure CONSOLIDATE,\n\t * which we shall see shortly.\n\t */\n\tpopreference() {\n\t\tconst z = this.min;\n\t\tif (z === null) return null;\n\t\tif (z.children !== null) {\n\t\t\tlist_reset_parent(z.children);\n\t\t\tlist_concatenate(z, z.children);\n\t\t}\n\n\t\tif (z === z.next) this.min = null;\n\t\telse {\n\t\t\tlist_remove(z);\n\t\t\tthis.min = consolidate(this.compare, z.next);\n\t\t}\n\n\t\tz.next = z; // (Re)move this?\n\t\tz.prev = z;\n\t\tz.children = null;\n\t\tz.degree = 0;\n\t\tz.mark = false;\n\t\treturn z;\n\t}\n\n\t/**\n\t * Create a new node for the inserted element and put it into the heap.\n\t */\n\tpush(value) {\n\t\tconst node = new Node(value);\n\t\treturn this.pushreference(node);\n\t}\n\n\t/**\n\t * Insert: insert new node.\n\t * /!\\ ref.next = ref.prev = ref which means all references that are\n\t * external to the tree must reset .next and .prev and one must not call\n\t * FibonacciHeap#pushreference with an internal reference from this tree or\n\t * another, except the root of another tree.\n\t *\n\t * Change in potential is 1. Therefore amortized cost is O(1).\n\t */\n\tpushreference(ref) {\n\t\tif (this.min === null) {\n\t\t\t// Create a root list for H containing just x (by precondition)\n\t\t\tthis.min = ref;\n\t\t} else {\n\t\t\t// This.min != null != ref\n\t\t\t// Insert x into H's root list\n\t\t\tlist_insert(this.min, ref);\n\t\t\t// Update minimum\n\t\t\tif (this.compare(ref.value, this.min.value) < 0) {\n\t\t\t\tthis.min = ref;\n\t\t\t}\n\t\t}\n\n\t\treturn ref;\n\t}\n\n\t/**\n\t * Union: Uniting two Fibonacci heaps\n\t *\n\t * The following procedure unites Fibonacci heaps H_1 and H_2, destroying\n\t * H_1 and H_2 in the process. It simply concatenates the root lists of H_1\n\t * and H_2 and then determines the new minimum node. Afterward, the objects\n\t * representing H_1 and H_2 will never be used again.\n\t *\n\t * /!\\ Assumes the same comparison function is used in both trees.\n\t *\n\t * Change in potential is zero. Amortized cost is O(1), the actual cost.\n\t */\n\tmeld(other) {\n\t\tconst ref = other.min;\n\t\tif (ref === null) return;\n\t\tif (this.min === null) this.min = ref;\n\t\telse {\n\t\t\t// This.min != null != ref\n\t\t\t// Concatenate the root list of H_2 with the root list of H\n\t\t\tlist_concatenate(this.min, ref);\n\t\t\t// Update minimum\n\t\t\tif (this.compare(ref.value, this.min.value) < 0) {\n\t\t\t\tthis.min = ref;\n\t\t\t}\n\t\t}\n\t}\n\n\t/**\n\t * Synonym for FibonacciHeap#meld.\n\t * TODO Remove this.\n\t */\n\tmerge(other) {\n\t\tthis.meld(other);\n\t}\n\n\t/**\n\t * @param {Node} ref Non-null internal node object.\n\t * @param {Object} value The new value for ref.\n\t */\n\tupdate(ref, value) {\n\t\tconst d = this.compare(value, ref.value);\n\n\t\tif (d < 0) this.decreasekey(ref, value);\n\t\telse if (d > 0) this.increasekey(ref, value);\n\t\telse ref.value = value;\n\t}\n\n\t/**\n\t * FIB-HEAP-DECREASE-kEY:\n\t * @param {Node} ref Non-null internal node object.\n\t * @param {Object} value The new value for ref.\n\t */\n\tdecreasekey(ref, value) {\n\t\tref.value = value;\n\t\tif (ref !== this.min) {\n\t\t\t// This.min != null, ref != null\n\t\t\tconst y = ref.parent;\n\t\t\tif (y !== null && this.compare(ref.value, y.value) < 0) {\n\t\t\t\tcut(ref, y);\n\t\t\t\tlist_insert(this.min, ref);\n\t\t\t\tfor (const x of cascading_cut(y)) list_insert(this.min, x);\n\t\t\t}\n\n\t\t\tif (this.compare(ref.value, this.min.value) < 0) {\n\t\t\t\tthis.min = ref;\n\t\t\t}\n\t\t}\n\t}\n\n\t/**\n\t * Increase-key: remove the item at the key to be increased, replace\n\t * the key with a larger key, then push the result back into the heap.\n\t *\n\t * @param {Node} ref Non-null internal node object.\n\t * @param {Object} value The new value for ref.\n\t *\n\t */\n\tincreasekey(ref, value) {\n\t\tthis.delete(ref);\n\n\t\tref.value = value;\n\n\t\tthis.pushreference(ref);\n\t}\n\n\t/**\n\t * Delete\n\t * ref must be internal\n\t * ref.prev and ref.next get reset to null\n\t */\n\tdelete(ref) {\n\t\tif (ref !== this.min) {\n\t\t\t// This.min != null, ref != null\n\t\t\tconst y = ref.parent;\n\t\t\tif (y !== null) {\n\t\t\t\tcut(ref, y);\n\t\t\t\tlist_insert(this.min, ref);\n\t\t\t\tfor (const x of cascading_cut(y)) list_insert(this.min, x);\n\t\t\t}\n\n\t\t\tthis.min = ref;\n\t\t}\n\n\t\tthis.popreference();\n\t}\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-fibonacci-heap/src/FibonacciHeap.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "class",
+    "name": "FibonacciHeap",
+    "memberof": "src/FibonacciHeap.js",
+    "static": true,
+    "longname": "src/FibonacciHeap.js~FibonacciHeap",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-fibonacci-heap/src/FibonacciHeap.js",
+    "importStyle": "FibonacciHeap",
+    "description": "See CLRS09 Chapter 19 on the Fibonacci Heap.",
+    "lineNumber": 15,
+    "interface": false
+  },
+  {
+    "__docId__": 50,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/FibonacciHeap.js~FibonacciHeap",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/FibonacciHeap.js~FibonacciHeap#constructor",
+    "access": "public",
+    "description": "Make-heap: creates a new empty heap.\n\nTo make an empty Fibonacci heap, the MAKE-FIB-HEAP procedure\nallocates and returns the Fibonacci heap object H, where H.n = 0 and\nH.min = NIL ; there are no trees in H. Because t(H) = 0 and m(H) = 0,\nthe potential of the empty Fibonacci heap is pot(H) = 0. The amortized\ncost of MAKE-FIB-HEAP is thus equal to its O(1) actual cost.",
+    "lineNumber": 25
+  },
+  {
+    "__docId__": 51,
+    "kind": "member",
+    "name": "compare",
+    "memberof": "src/FibonacciHeap.js~FibonacciHeap",
+    "static": false,
+    "longname": "src/FibonacciHeap.js~FibonacciHeap#compare",
+    "access": "public",
+    "description": null,
+    "lineNumber": 26,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "member",
+    "name": "min",
+    "memberof": "src/FibonacciHeap.js~FibonacciHeap",
+    "static": false,
+    "longname": "src/FibonacciHeap.js~FibonacciHeap#min",
+    "access": "public",
+    "description": "We access a given Fibonacci heap H by a pointer H.min to the root of\na tree containing the minimum key; we call this node the minimum\nnode of the Fibonacci heap. If more than one root has a key with the\nminimum value, then any such root may serve as the minimum node.\nWhen a Fibonacci heap H is empty, H.min is NIL.",
+    "lineNumber": 34,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "method",
+    "name": "head",
+    "memberof": "src/FibonacciHeap.js~FibonacciHeap",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/FibonacciHeap.js~FibonacciHeap#head",
+    "access": "public",
+    "description": "Find-min: simply return the top element of the heap.",
+    "lineNumber": 40,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "method",
+    "name": "headreference",
+    "memberof": "src/FibonacciHeap.js~FibonacciHeap",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/FibonacciHeap.js~FibonacciHeap#headreference",
+    "access": "public",
+    "description": "Minimum: return a pointer to the element whose key is minimum\n\nThe minimum node of a Fibonacci heap H is given by the pointer H.min, so\nwe can find the minimum node in O(1) actual time. Because the potential\nof H does not change, the amortized cost of this operation is equal to\nits O(1) actual cost.",
+    "lineNumber": 53,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "method",
+    "name": "pop",
+    "memberof": "src/FibonacciHeap.js~FibonacciHeap",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/FibonacciHeap.js~FibonacciHeap#pop",
+    "access": "public",
+    "description": "",
+    "lineNumber": 59,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "method",
+    "name": "popreference",
+    "memberof": "src/FibonacciHeap.js~FibonacciHeap",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/FibonacciHeap.js~FibonacciHeap#popreference",
+    "access": "public",
+    "description": "FIB-HEAP-EXTRACT-MIN(H):\n\nExtracting the minimum node\n\nThe process of extracting the minimum node is the most complicated of\nthe operations presented in this section. It is also where the delayed\nwork of consolidating trees in the root list finally occurs. The\nfollowing pseudocode extracts the minimum node. The code assumes for\nconvenience that when a node is removed from a linked list, pointers\nremaining in the list are updated, but pointers in the extracted node\nare left unchanged. It also calls the auxiliary procedure CONSOLIDATE,\nwhich we shall see shortly.",
+    "lineNumber": 78,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "method",
+    "name": "push",
+    "memberof": "src/FibonacciHeap.js~FibonacciHeap",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/FibonacciHeap.js~FibonacciHeap#push",
+    "access": "public",
+    "description": "Create a new node for the inserted element and put it into the heap.",
+    "lineNumber": 103,
+    "params": [
+      {
+        "name": "value",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "method",
+    "name": "pushreference",
+    "memberof": "src/FibonacciHeap.js~FibonacciHeap",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/FibonacciHeap.js~FibonacciHeap#pushreference",
+    "access": "public",
+    "description": "Insert: insert new node.\n/!\\ ref.next = ref.prev = ref which means all references that are\nexternal to the tree must reset .next and .prev and one must not call\nFibonacciHeap#pushreference with an internal reference from this tree or\nanother, except the root of another tree.\n\nChange in potential is 1. Therefore amortized cost is O(1).",
+    "lineNumber": 117,
+    "params": [
+      {
+        "name": "ref",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "method",
+    "name": "meld",
+    "memberof": "src/FibonacciHeap.js~FibonacciHeap",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/FibonacciHeap.js~FibonacciHeap#meld",
+    "access": "public",
+    "description": "Union: Uniting two Fibonacci heaps\n\nThe following procedure unites Fibonacci heaps H_1 and H_2, destroying\nH_1 and H_2 in the process. It simply concatenates the root lists of H_1\nand H_2 and then determines the new minimum node. Afterward, the objects\nrepresenting H_1 and H_2 will never be used again.\n\n/!\\ Assumes the same comparison function is used in both trees.\n\nChange in potential is zero. Amortized cost is O(1), the actual cost.",
+    "lineNumber": 146,
+    "params": [
+      {
+        "name": "other",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 66,
+    "kind": "method",
+    "name": "merge",
+    "memberof": "src/FibonacciHeap.js~FibonacciHeap",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/FibonacciHeap.js~FibonacciHeap#merge",
+    "access": "public",
+    "description": "Synonym for FibonacciHeap#meld.\nTODO Remove this.",
+    "lineNumber": 165,
+    "params": [
+      {
+        "name": "other",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 67,
+    "kind": "method",
+    "name": "update",
+    "memberof": "src/FibonacciHeap.js~FibonacciHeap",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/FibonacciHeap.js~FibonacciHeap#update",
+    "access": "public",
+    "description": "",
+    "lineNumber": 173,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Node"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "ref",
+        "description": "Non-null internal node object."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": "The new value for ref."
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 68,
+    "kind": "method",
+    "name": "decreasekey",
+    "memberof": "src/FibonacciHeap.js~FibonacciHeap",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/FibonacciHeap.js~FibonacciHeap#decreasekey",
+    "access": "public",
+    "description": "FIB-HEAP-DECREASE-kEY:",
+    "lineNumber": 186,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Node"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "ref",
+        "description": "Non-null internal node object."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": "The new value for ref."
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 70,
+    "kind": "method",
+    "name": "increasekey",
+    "memberof": "src/FibonacciHeap.js~FibonacciHeap",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/FibonacciHeap.js~FibonacciHeap#increasekey",
+    "access": "public",
+    "description": "Increase-key: remove the item at the key to be increased, replace\nthe key with a larger key, then push the result back into the heap.",
+    "lineNumber": 211,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Node"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "ref",
+        "description": "Non-null internal node object."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "value",
+        "description": "The new value for ref."
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 71,
+    "kind": "method",
+    "name": "delete",
+    "memberof": "src/FibonacciHeap.js~FibonacciHeap",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/FibonacciHeap.js~FibonacciHeap#delete",
+    "access": "public",
+    "description": "Delete\nref must be internal\nref.prev and ref.next get reset to null",
+    "lineNumber": 224,
+    "params": [
+      {
+        "name": "ref",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 73,
+    "kind": "file",
+    "name": "src/Node.js",
+    "content": "export default class Node {\n\tconstructor(value) {\n\t\tthis.value = value; // Key\n\t\t/**\n\t\t * As Figure 19.2(b) shows, each node x contains a pointer x.p to its\n\t\t * parent and a pointer x.child to any one of its children. The\n\t\t * children of x are linked together in a circular, doubly linked list,\n\t\t * which we call the child list of x. Each child y in a child list has\n\t\t * pointers y.left and y.right that point to y’s left and right\n\t\t * siblings, respectively. If node y is an only child, then y.left =\n\t\t * y.right = y. Siblings may appear in a child list in any order.\n\t\t */\n\t\tthis.parent = null;\n\t\tthis.prev = this; // Pointer to previous (left) sibling\n\t\tthis.next = this; // Pointer to next (right) sibling\n\t\tthis.children = null; // Pointer to some child\n\t\t/**\n\t\t * Each node has two other attributes. We store the number of children\n\t\t * in the child list of node x in x.degree.\n\t\t */\n\t\tthis.degree = 0; // The number of children\n\t\t/**\n\t\t * The boolean-valued attribute x.mark indicates whether\n\t\t * node x has lost a child since the last time x was made the child of another node.\n\t\t * Newly created nodes are unmarked, and a node x becomes unmarked whenever it\n\t\t * is made the child of another node. Until we look at the DECREASE-KEY operation\n\t\t * in Section 19.3, we will just set all mark attributes to FALSE .\n\t\t */\n\t\tthis.mark = false; // Newly created nodes are unmarked\n\t}\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-fibonacci-heap/src/Node.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 74,
+    "kind": "class",
+    "name": "Node",
+    "memberof": "src/Node.js",
+    "static": true,
+    "longname": "src/Node.js~Node",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-fibonacci-heap/src/Node.js",
+    "importStyle": "Node",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 75,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Node.js~Node",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Node.js~Node#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true
+  },
+  {
+    "__docId__": 76,
+    "kind": "member",
+    "name": "value",
+    "memberof": "src/Node.js~Node",
+    "static": false,
+    "longname": "src/Node.js~Node#value",
+    "access": "public",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 77,
+    "kind": "member",
+    "name": "parent",
+    "memberof": "src/Node.js~Node",
+    "static": false,
+    "longname": "src/Node.js~Node#parent",
+    "access": "public",
+    "description": "As Figure 19.2(b) shows, each node x contains a pointer x.p to its\nparent and a pointer x.child to any one of its children. The\nchildren of x are linked together in a circular, doubly linked list,\nwhich we call the child list of x. Each child y in a child list has\npointers y.left and y.right that point to y’s left and right\nsiblings, respectively. If node y is an only child, then y.left =\ny.right = y. Siblings may appear in a child list in any order.",
+    "lineNumber": 13,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "member",
+    "name": "prev",
+    "memberof": "src/Node.js~Node",
+    "static": false,
+    "longname": "src/Node.js~Node#prev",
+    "access": "public",
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 79,
+    "kind": "member",
+    "name": "next",
+    "memberof": "src/Node.js~Node",
+    "static": false,
+    "longname": "src/Node.js~Node#next",
+    "access": "public",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 80,
+    "kind": "member",
+    "name": "children",
+    "memberof": "src/Node.js~Node",
+    "static": false,
+    "longname": "src/Node.js~Node#children",
+    "access": "public",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 81,
+    "kind": "member",
+    "name": "degree",
+    "memberof": "src/Node.js~Node",
+    "static": false,
+    "longname": "src/Node.js~Node#degree",
+    "access": "public",
+    "description": "Each node has two other attributes. We store the number of children\nin the child list of node x in x.degree.",
+    "lineNumber": 21,
+    "type": {
+      "types": [
+        "number"
+      ]
+    }
+  },
+  {
+    "__docId__": 82,
+    "kind": "member",
+    "name": "mark",
+    "memberof": "src/Node.js~Node",
+    "static": false,
+    "longname": "src/Node.js~Node#mark",
+    "access": "public",
+    "description": "The boolean-valued attribute x.mark indicates whether\nnode x has lost a child since the last time x was made the child of another node.\nNewly created nodes are unmarked, and a node x becomes unmarked whenever it\nis made the child of another node. Until we look at the DECREASE-KEY operation\nin Section 19.3, we will just set all mark attributes to FALSE .",
+    "lineNumber": 29,
+    "type": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 83,
+    "kind": "file",
+    "name": "src/cascading_cut.js",
+    "content": "import cut from './cut';\n\nexport default function* cascading_cut(y) {\n\twhile (true) {\n\t\tconst z = y.parent;\n\t\tif (z === null) break;\n\t\tif (!y.mark) {\n\t\t\ty.mark = true;\n\t\t\tbreak;\n\t\t}\n\n\t\tcut(y, z);\n\t\tyield y;\n\t\ty = z;\n\t}\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-fibonacci-heap/src/cascading_cut.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 84,
+    "kind": "function",
+    "name": "cascading_cut",
+    "memberof": "src/cascading_cut.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/cascading_cut.js~cascading_cut",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-fibonacci-heap/src/cascading_cut.js",
+    "importStyle": "cascading_cut",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "y",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 85,
+    "kind": "file",
+    "name": "src/consolidate.js",
+    "content": "import list_insert from './list_insert';\nimport fib_heap_link from './fib_heap_link';\n\n/**\n * CONSOLIDATE: Consolidate the root list of a heap.\n *\n * The next step, in which we reduce the number of trees in the Fibonacci heap,\n * is consolidating the root list of H, which the call CONSOLIDATE(H)\n * accomplishes. Consolidating the root list consists of repeatedly executing\n * the following steps until every root in the root list has a distinct degree\n * value:\n *\n *   1. Find two roots x and y in the root list with the same degree. Without\n *   loss of generality, let x.key <= y.key.\n *\n *   2. Link y to x: remove y from the root list, and make y a child of x by\n *   calling the FIB-HEAP-LINK procedure. This procedure increments the\n *   attribute x:degree and clears the mark on y.\n *\n * The procedure CONSOLIDATE uses an auxiliary array A[0..D(H.n)] to\n * keep track of roots according to their degrees. If A[i] = y, then y is\n * currently a root with y.degree = i. Of course, in order to allocate the\n * array we have to know how to calculate the upper bound D(H.n) on the maximum\n * degree, but we will see how to do so in Section 19.4.\n *\n * @param compare Comparison function.\n * @param l Root list.\n */\nexport default function consolidate(compare, l) {\n\tconst A = [];\n\n\tlet next = l;\n\n\tdo {\n\t\tlet x = next;\n\t\tnext = x.next;\n\t\tlet d = x.degree;\n\n\t\tlet n = d - A.length;\n\t\tif (n >= 0) {\n\t\t\twhile (n-- > 0) A.push(null);\n\t\t\tA.push(x);\n\t\t} else {\n\t\t\twhile (A[d] !== null) {\n\t\t\t\tlet y = A[d]; // Another node with the same degree as x\n\t\t\t\tif (compare(y.value, x.value) < 0) {\n\t\t\t\t\t// CANNOT EXCHANGE VALUES BECAUSE THAT WOULD INVALIDATE\n\t\t\t\t\t// EXISTING POINTERS\n\t\t\t\t\ty = x;\n\t\t\t\t\tx = A[d];\n\t\t\t\t}\n\n\t\t\t\tfib_heap_link(y, x);\n\t\t\t\tA[d] = null; // Put before fib_heap_link if using x.degree ?\n\t\t\t\t++d;\n\t\t\t\tif (d === A.length) {\n\t\t\t\t\tA.push(null);\n\t\t\t\t\tbreak;\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tA[d] = x;\n\t\t}\n\t} while (next !== l);\n\n\tlet min = null;\n\n\tfor (const x of A) {\n\t\tif (x === null) continue;\n\t\tif (min === null) {\n\t\t\t// Create a root list for H containing just A[i]\n\t\t\tx.next = x;\n\t\t\tx.prev = x;\n\t\t\tmin = x;\n\t\t} else {\n\t\t\t// Insert A[i] into H's root list\n\t\t\tlist_insert(min, x);\n\t\t\t// Update minimum if necessary\n\t\t\tif (compare(x.value, min.value) < 0) min = x;\n\t\t}\n\t}\n\n\treturn min;\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-fibonacci-heap/src/consolidate.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 86,
+    "kind": "function",
+    "name": "consolidate",
+    "memberof": "src/consolidate.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/consolidate.js~consolidate",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-fibonacci-heap/src/consolidate.js",
+    "importStyle": "consolidate",
+    "description": "CONSOLIDATE: Consolidate the root list of a heap.\n\nThe next step, in which we reduce the number of trees in the Fibonacci heap,\nis consolidating the root list of H, which the call CONSOLIDATE(H)\naccomplishes. Consolidating the root list consists of repeatedly executing\nthe following steps until every root in the root list has a distinct degree\nvalue:\n\n  1. Find two roots x and y in the root list with the same degree. Without\n  loss of generality, let x.key <= y.key.\n\n  2. Link y to x: remove y from the root list, and make y a child of x by\n  calling the FIB-HEAP-LINK procedure. This procedure increments the\n  attribute x:degree and clears the mark on y.\n\nThe procedure CONSOLIDATE uses an auxiliary array A[0..D(H.n)] to\nkeep track of roots according to their degrees. If A[i] = y, then y is\ncurrently a root with y.degree = i. Of course, in order to allocate the\narray we have to know how to calculate the upper bound D(H.n) on the maximum\ndegree, but we will see how to do so in Section 19.4.",
+    "lineNumber": 29,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "compare",
+        "description": "Comparison function."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "l",
+        "description": "Root list."
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 87,
+    "kind": "file",
+    "name": "src/cut.js",
+    "content": "import list_remove from './list_remove';\n\nexport default function cut(x, y) {\n\tif (x === x.next) y.children = null;\n\telse {\n\t\ty.children = x.next;\n\t\tlist_remove(x);\n\t}\n\n\t--y.degree;\n\tx.parent = null;\n\tx.mark = false;\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-fibonacci-heap/src/cut.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 88,
+    "kind": "function",
+    "name": "cut",
+    "memberof": "src/cut.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/cut.js~cut",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-fibonacci-heap/src/cut.js",
+    "importStyle": "cut",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "x",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "y",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 89,
+    "kind": "file",
+    "name": "src/fib_heap_link.js",
+    "content": "import list_insert from './list_insert';\n\n/**\n * FIB-HEAP-LINK\n *\n * Precondition: y is in the root list of some heap.\n */\nexport default function fib_heap_link(y, x) {\n\t// List_remove(y); // NOT NECESSARY SINCE y IS ALWAYS FROM ROOT LIST\n\t// make y a child of x\n\tif (x.children === null) {\n\t\ty.next = y;\n\t\ty.prev = y;\n\t\tx.children = y;\n\t} else {\n\t\tlist_insert(x.children, y);\n\t}\n\n\ty.parent = x;\n\t++x.degree; // Increment x.degree\n\ty.mark = false; // Unmark y\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-fibonacci-heap/src/fib_heap_link.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 90,
+    "kind": "function",
+    "name": "fib_heap_link",
+    "memberof": "src/fib_heap_link.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fib_heap_link.js~fib_heap_link",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-fibonacci-heap/src/fib_heap_link.js",
+    "importStyle": "fib_heap_link",
+    "description": "FIB-HEAP-LINK\n\nPrecondition: y is in the root list of some heap.",
+    "lineNumber": 8,
+    "params": [
+      {
+        "name": "y",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "x",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 91,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "import Node from './Node';\nimport FibonacciHeap from './FibonacciHeap';\n\nexport default FibonacciHeap;\n\nexport {Node, FibonacciHeap};\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-fibonacci-heap/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 92,
+    "kind": "file",
+    "name": "src/list_concatenate.js",
+    "content": "export default function list_concatenate(x, y) {\n\t// FROM x - b - c - d - x        y - f - g - h - y\n\t//   TO x - b - c - d - y - f - g - h - x\n\tconst d = x.prev;\n\tconst h = y.prev;\n\td.next = y; // D -> y\n\tx.prev = h; // H <- x\n\ty.prev = d; // D <- y\n\th.next = x; // H -> x\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-fibonacci-heap/src/list_concatenate.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 93,
+    "kind": "function",
+    "name": "list_concatenate",
+    "memberof": "src/list_concatenate.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/list_concatenate.js~list_concatenate",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-fibonacci-heap/src/list_concatenate.js",
+    "importStyle": "list_concatenate",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "x",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "y",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 94,
+    "kind": "file",
+    "name": "src/list_insert.js",
+    "content": "/**\n * Optimization of list_concatenate when x contains a single element.\n * Works even if x has dangling pointers x.next and x.prev.\n */\nexport default function list_insert(a, x) {\n\t// FROM a - b - c - d - a        x\n\t//   TO a - b - c - d - x - a\n\tconst d = a.prev;\n\tx.next = a; // X -> a\n\tx.prev = d; // D <- x\n\td.next = x; // D -> x\n\ta.prev = x; // X <- a\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-fibonacci-heap/src/list_insert.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 95,
+    "kind": "function",
+    "name": "list_insert",
+    "memberof": "src/list_insert.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/list_insert.js~list_insert",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-fibonacci-heap/src/list_insert.js",
+    "importStyle": "list_insert",
+    "description": "Optimization of list_concatenate when x contains a single element.\nWorks even if x has dangling pointers x.next and x.prev.",
+    "lineNumber": 5,
+    "params": [
+      {
+        "name": "a",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "x",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 96,
+    "kind": "file",
+    "name": "src/list_iter.js",
+    "content": "export default function* list_iter(children) {\n\tlet next = children;\n\n\tdo {\n\t\tconst x = next;\n\t\tnext = x.next;\n\t\tyield x;\n\t} while (next !== children);\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-fibonacci-heap/src/list_iter.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 97,
+    "kind": "function",
+    "name": "list_iter",
+    "memberof": "src/list_iter.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/list_iter.js~list_iter",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-fibonacci-heap/src/list_iter.js",
+    "importStyle": "list_iter",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "children",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 98,
+    "kind": "file",
+    "name": "src/list_remove.js",
+    "content": "/**\n * /!\\ pointers in the extracted node are left unchanged\n * /!\\ y will have dangling pointers after removal if not single element\n */\nexport default function list_remove(y) {\n\ty.prev.next = y.next;\n\ty.next.prev = y.prev;\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-fibonacci-heap/src/list_remove.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 99,
+    "kind": "function",
+    "name": "list_remove",
+    "memberof": "src/list_remove.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/list_remove.js~list_remove",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-fibonacci-heap/src/list_remove.js",
+    "importStyle": "list_remove",
+    "description": "/!\\ pointers in the extracted node are left unchanged\n/!\\ y will have dangling pointers after removal if not single element",
+    "lineNumber": 5,
+    "params": [
+      {
+        "name": "y",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 100,
+    "kind": "file",
+    "name": "src/list_reset_parent.js",
+    "content": "export default function list_reset_parent(children) {\n\tlet next = children;\n\n\tdo {\n\t\tconst x = next;\n\t\tnext = x.next;\n\t\tx.parent = null;\n\t} while (next !== children);\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-fibonacci-heap/src/list_reset_parent.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 101,
+    "kind": "function",
+    "name": "list_reset_parent",
+    "memberof": "src/list_reset_parent.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/list_reset_parent.js~list_reset_parent",
+    "access": "public",
+    "export": true,
+    "importPath": "@aureooms/js-fibonacci-heap/src/list_reset_parent.js",
+    "importStyle": "list_reset_parent",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "children",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "kind": "index",
+    "content": "[@aureooms/js-fibonacci-heap](https://aureooms.github.io/js-fibonacci-heap)\n==\n\nFibonacci heap data structure for JavaScript.\nSee [docs](https://aureooms.github.io/js-fibonacci-heap/index.html).\n\n> :warning: The code needs a ES2015+ polyfill to run (`regeneratorRuntime`),\n> for instance [@babel/polyfill](https://babeljs.io/docs/usage/polyfill).\n\n[![License](https://img.shields.io/github/license/aureooms/js-fibonacci-heap.svg)](https://raw.githubusercontent.com/aureooms/js-fibonacci-heap/master/LICENSE)\n[![Version](https://img.shields.io/npm/v/@aureooms/js-fibonacci-heap.svg)](https://www.npmjs.org/package/@aureooms/js-fibonacci-heap)\n[![Build](https://img.shields.io/travis/aureooms/js-fibonacci-heap/master.svg)](https://travis-ci.org/aureooms/js-fibonacci-heap/branches)\n[![Dependencies](https://img.shields.io/david/aureooms/js-fibonacci-heap.svg)](https://david-dm.org/aureooms/js-fibonacci-heap)\n[![Dev dependencies](https://img.shields.io/david/dev/aureooms/js-fibonacci-heap.svg)](https://david-dm.org/aureooms/js-fibonacci-heap?type=dev)\n[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-fibonacci-heap.svg)](https://github.com/aureooms/js-fibonacci-heap/issues)\n[![Downloads](https://img.shields.io/npm/dm/@aureooms/js-fibonacci-heap.svg)](https://www.npmjs.org/package/@aureooms/js-fibonacci-heap)\n\n[![Code issues](https://img.shields.io/codeclimate/issues/aureooms/js-fibonacci-heap.svg)](https://codeclimate.com/github/aureooms/js-fibonacci-heap/issues)\n[![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-fibonacci-heap.svg)](https://codeclimate.com/github/aureooms/js-fibonacci-heap/trends/churn)\n[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-fibonacci-heap/master.svg)](https://codecov.io/gh/aureooms/js-fibonacci-heap)\n<!--[![Code coverage (alls)](https://img.shields.io/coveralls/github/aureooms/js-fibonacci-heap/master.svg)](https://coveralls.io/r/aureooms/js-fibonacci-heap)-->\n<!--[![Code coverage (clim)](https://img.shields.io/codeclimate/coverage/aureooms/js-fibonacci-heap.svg)](https://codeclimate.com/github/aureooms/js-fibonacci-heap/trends/test_coverage_new_code)-->\n[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-fibonacci-heap.svg)](https://codeclimate.com/github/aureooms/js-fibonacci-heap/trends/technical_debt)\n[![Documentation](https://aureooms.github.io/js-fibonacci-heap/badge.svg)](https://aureooms.github.io/js-fibonacci-heap/source.html)\n",
+    "longname": "/home/aureooms/dev/js/js-fibonacci-heap/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"@aureooms/js-fibonacci-heap\",\n  \"description\": \"Fibonacci heap data structure for JavaScript\",\n  \"version\": \"0.0.0\",\n  \"author\": \"aureooms\",\n  \"ava\": {\n    \"files\": [\n      \"test/src/**/*\"\n    ],\n    \"require\": [\n      \"@babel/polyfill\",\n      \"@babel/register\"\n    ],\n    \"timeout\": \"1m\"\n  },\n  \"babel\": {\n    \"presets\": [\n      \"@babel/preset-env\"\n    ],\n    \"plugins\": [\n      \"@babel/plugin-proposal-async-generator-functions\"\n    ],\n    \"env\": {\n      \"development\": {\n        \"sourceMaps\": \"inline\"\n      }\n    }\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/aureooms/js-fibonacci-heap/issues\"\n  },\n  \"dependencies\": {},\n  \"devDependencies\": {\n    \"@aureooms/js-heap-spec\": \"^14.0.0\",\n    \"@babel/cli\": \"7.8.4\",\n    \"@babel/core\": \"7.9.0\",\n    \"@babel/plugin-proposal-async-generator-functions\": \"7.8.3\",\n    \"@babel/polyfill\": \"7.8.7\",\n    \"@babel/preset-env\": \"7.9.5\",\n    \"@babel/register\": \"7.9.0\",\n    \"ava\": \"3.7.0\",\n    \"coveralls\": \"3.0.11\",\n    \"esdoc\": \"1.1.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"1.0.0\",\n    \"esdoc-inject-script-plugin\": \"1.0.0\",\n    \"esdoc-inject-style-plugin\": \"1.0.0\",\n    \"esdoc-standard-plugin\": \"1.0.0\",\n    \"np\": \"6.2.1\",\n    \"nyc\": \"15.0.1\",\n    \"xo\": \"0.29.1\"\n  },\n  \"files\": [\n    \"lib\"\n  ],\n  \"homepage\": \"https://aureooms.github.io/js-fibonacci-heap\",\n  \"keywords\": [\n    \"data\",\n    \"fibonacci\",\n    \"heap\",\n    \"structure\"\n  ],\n  \"license\": \"AGPL-3.0\",\n  \"main\": \"lib/index.js\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"https://github.com/aureooms/js-fibonacci-heap\"\n  },\n  \"scripts\": {\n    \"build\": \"rm -rf lib && babel src -d lib\",\n    \"cover\": \"nyc --reporter=lcov npm test\",\n    \"esdoc\": \"esdoc\",\n    \"prepare\": \"npm run build\",\n    \"release\": \"np\",\n    \"test\": \"xo && ava\"\n  },\n  \"xo\": {\n    \"prettier\": true,\n    \"ignore\": [\n      \"lib\",\n      \"doc\"\n    ],\n    \"plugins\": [\n      \"unicorn\"\n    ],\n    \"rules\": {\n      \"camelcase\": \"off\",\n      \"unicorn/filename-case\": \"off\"\n    }\n  }\n}\n",
+    "longname": "/home/aureooms/dev/js/js-fibonacci-heap/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manualIndex",
+    "globalIndex": false,
+    "content": null,
+    "longname": "",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-fibonacci-heap/doc/manual/overview.md",
+    "name": "./doc/manual/overview.md",
+    "content": "# Overview\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-fibonacci-heap/doc/manual/installation.md",
+    "name": "./doc/manual/installation.md",
+    "content": "# Installation\n\nCan be managed using\n[yarn](https://yarnpkg.com/en/docs),\n[npm](https://docs.npmjs.com),\nor [jspm](https://jspm.org/docs).\n\n\n### yarn\n```terminal\nyarn add @aureooms/js-fibonacci-heap\n```\n\n### npm\n```terminal\nnpm install @aureooms/js-fibonacci-heap --save\n```\n\n### jspm\n```terminal\njspm install npm:@aureooms/js-fibonacci-heap\n```\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-fibonacci-heap/doc/manual/usage.md",
+    "name": "./doc/manual/usage.md",
+    "content": "# Usage\n\n> :warning: The code needs a ES2015+ polyfill to run (`regeneratorRuntime`),\n> for instance [@babel/polyfill](https://babeljs.io/docs/usage/polyfill).\n\nFirst, require the polyfill at the entry point of your application\n```js\nrequire( '@babel/polyfill' ) ;\n// or\nimport '@babel/polyfill' ;\n```\n\nThen, import the library where needed\n```js\nconst fibonacciheap = require( '@aureooms/js-fibonacci-heap' ) ;\n// or\nimport * as fibonacciheap from '@aureooms/js-fibonacci-heap' ;\n```\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-fibonacci-heap/doc/manual/example.md",
+    "name": "./doc/manual/example.md",
+    "content": "# Examples\n\n> More examples in [the test files](https://github.com/aureooms/js-fibonacci-heap/tree/master/test/src).\n",
+    "static": true,
+    "access": "public"
+  }
+]
