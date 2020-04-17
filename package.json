@@ -31,6 +31,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@aureooms/js-heap-spec": "^14.0.0",
     "@babel/cli": "7.8.4",
     "@babel/core": "7.9.0",
     "@babel/plugin-proposal-async-generator-functions": "7.8.3",
@@ -52,7 +53,12 @@
     "lib"
   ],
   "homepage": "https://aureooms.github.io/js-fibonacci-heap",
-  "keywords": ["data", "fibonacci", "heap", "structure"],
+  "keywords": [
+    "data",
+    "fibonacci",
+    "heap",
+    "structure"
+  ],
   "license": "AGPL-3.0",
   "main": "lib/index.js",
   "repository": {
@@ -77,12 +83,8 @@
       "unicorn"
     ],
     "rules": {
-      "unicorn/filename-case": [
-        "error",
-        {
-          "case": "camelCase"
-        }
-      ]
+      "camelcase": "off",
+      "unicorn/filename-case": "off"
     }
   }
 }
