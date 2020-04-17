@@ -6,5 +6,4 @@ export default function list_reset_parent(children) {
 		next = x.next;
 		x.parent = null;
 	} while (next !== children);
-
 }

@@ -6,6 +6,7 @@ export default function cut(x, y) {
 		y.children = x.next;
 		list_remove(x);
 	}
+
 	--y.degree;
 	x.parent = null;
 	x.mark = false;

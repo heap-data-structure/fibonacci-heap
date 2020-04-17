@@ -1,4 +1,3 @@
-import list_remove from './list_remove';
 import list_insert from './list_insert';
 
 /**
@@ -7,7 +6,7 @@ import list_insert from './list_insert';
  * Precondition: y is in the root list of some heap.
  */
 export default function fib_heap_link(y, x) {
-	//list_remove(y); // NOT NECESSARY SINCE y IS ALWAYS FROM ROOT LIST
+	// List_remove(y); // NOT NECESSARY SINCE y IS ALWAYS FROM ROOT LIST
 	// make y a child of x
 	if (x.children === null) {
 		y.next = y;

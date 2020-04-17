@@ -89,7 +89,7 @@ export default class FibonacciHeap {
 			this.min = consolidate(this.compare, z.next);
 		}
 
-		z.next = z; // TODO remove this
+		z.next = z; // (Re)move this?
 		z.prev = z;
 		z.children = null;
 		z.degree = 0;
