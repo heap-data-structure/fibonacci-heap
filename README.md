@@ -18,7 +18,5 @@ See [docs](https://aureooms.github.io/js-fibonacci-heap/index.html).
 [![Code issues](https://img.shields.io/codeclimate/issues/aureooms/js-fibonacci-heap.svg)](https://codeclimate.com/github/aureooms/js-fibonacci-heap/issues)
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-fibonacci-heap.svg)](https://codeclimate.com/github/aureooms/js-fibonacci-heap/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-fibonacci-heap/master.svg)](https://codecov.io/gh/aureooms/js-fibonacci-heap)
-<!--[![Code coverage (alls)](https://img.shields.io/coveralls/github/aureooms/js-fibonacci-heap/master.svg)](https://coveralls.io/r/aureooms/js-fibonacci-heap)-->
-<!--[![Code coverage (clim)](https://img.shields.io/codeclimate/coverage/aureooms/js-fibonacci-heap.svg)](https://codeclimate.com/github/aureooms/js-fibonacci-heap/trends/test_coverage_new_code)-->
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-fibonacci-heap.svg)](https://codeclimate.com/github/aureooms/js-fibonacci-heap/trends/technical_debt)
 [![Documentation](https://aureooms.github.io/js-fibonacci-heap/badge.svg)](https://aureooms.github.io/js-fibonacci-heap/source.html)
