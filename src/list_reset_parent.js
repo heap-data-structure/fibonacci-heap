@@ -1,5 +1,4 @@
 export default function list_reset_parent(children) {
-	//console.debug('list_reset_parent');
 	let next = children;
 
 	do {
@@ -8,5 +7,4 @@ export default function list_reset_parent(children) {
 		x.parent = null;
 	} while (next !== children);
 
-	//console.debug('DONE');
 }

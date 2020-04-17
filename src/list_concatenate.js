@@ -1,5 +1,4 @@
 export default function list_concatenate(x, y) {
-	//console.debug('list_concatenate');
 	// FROM x - b - c - d - x        y - f - g - h - y
 	//   TO x - b - c - d - y - f - g - h - x
 	const d = x.prev;

@@ -1,6 +1,5 @@
 import Node from './Node';
 
-import list_debug from './list_debug';
 import list_insert from './list_insert';
 import list_remove from './list_remove';
 import list_concatenate from './list_concatenate';
@@ -24,7 +23,6 @@ export default class FibonacciHeap {
 	 * cost of MAKE-FIB-HEAP is thus equal to its O(1) actual cost.
 	 */
 	constructor(compare) {
-		//console.debug('constructor');
 		this.compare = compare; // Comparison function
 		/**
 		 * We access a given Fibonacci heap H by a pointer H.min to the root of
@@ -40,7 +38,6 @@ export default class FibonacciHeap {
 	 * Find-min: simply return the top element of the heap.
 	 */
 	head() {
-		//console.debug('head');
 		if (this.min === null) return undefined;
 		return this.min.value;
 	}
@@ -54,14 +51,12 @@ export default class FibonacciHeap {
 	 * its O(1) actual cost.
 	 */
 	headreference() {
-		//console.debug('headreference');
 		return this.min;
 	}
 
 	/**
 	 */
 	pop() {
-		//console.debug('pop');
 		const min = this.popreference();
 		return min === null ? undefined : min.value;
 	}
@@ -81,22 +76,16 @@ export default class FibonacciHeap {
 	 * which we shall see shortly.
 	 */
 	popreference() {
-		//console.debug('popreference');
 		const z = this.min;
 		if (z === null) return null;
-		//console.debug('z is', z.value);
-		list_debug(z.next, 'z list');
 		if (z.children !== null) {
-			list_debug(z.children, 'z children');
 			list_reset_parent(z.children);
 			list_concatenate(z, z.children);
-			list_debug(z.next, 'z after concatenation with its children');
 		}
 
 		if (z === z.next) this.min = null;
 		else {
 			list_remove(z);
-			list_debug(z.next, 'z after removal');
 			this.min = consolidate(this.compare, z.next);
 		}
 
@@ -105,7 +94,6 @@ export default class FibonacciHeap {
 		z.children = null;
 		z.degree = 0;
 		z.mark = false;
-		//console.debug('popped', z.value);
 		return z;
 	}
 
@@ -113,7 +101,6 @@ export default class FibonacciHeap {
 	 * Create a new node for the inserted element and put it into the heap.
 	 */
 	push(value) {
-		//console.debug('push', value);
 		const node = new Node(value);
 		return this.pushreference(node);
 	}
@@ -128,7 +115,6 @@ export default class FibonacciHeap {
 	 * Change in potential is 1. Therefore amortized cost is O(1).
 	 */
 	pushreference(ref) {
-		//console.debug('pushreference');
 		if (this.min === null) {
 			// Create a root list for H containing just x (by precondition)
 			this.min = ref;
@@ -158,7 +144,6 @@ export default class FibonacciHeap {
 	 * Change in potential is zero. Amortized cost is O(1), the actual cost.
 	 */
 	meld(other) {
-		//console.debug('meld');
 		const ref = other.min;
 		if (ref === null) return;
 		if (this.min === null) this.min = ref;
@@ -186,7 +171,6 @@ export default class FibonacciHeap {
 	 * @param {Object} value The new value for ref.
 	 */
 	update(ref, value) {
-		//console.debug('update');
 		const d = this.compare(value, ref.value);
 
 		if (d < 0) this.decreasekey(ref, value);
@@ -200,7 +184,6 @@ export default class FibonacciHeap {
 	 * @param {Object} value The new value for ref.
 	 */
 	decreasekey(ref, value) {
-		//console.debug('decreasekey');
 		ref.value = value;
 		if (ref !== this.min) {
 			// This.min != null, ref != null
@@ -226,7 +209,6 @@ export default class FibonacciHeap {
 	 *
 	 */
 	increasekey(ref, value) {
-		//console.debug('increasekey');
 		this.delete(ref);
 
 		ref.value = value;
@@ -240,8 +222,6 @@ export default class FibonacciHeap {
 	 * ref.prev and ref.next get reset to null
 	 */
 	delete(ref) {
-		//console.debug('>>>>')
-		//console.debug('DELETE', ref.value);
 		if (ref !== this.min) {
 			// This.min != null, ref != null
 			const y = ref.parent;

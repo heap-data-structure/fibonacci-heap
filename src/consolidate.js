@@ -1,18 +1,5 @@
 import list_insert from './list_insert';
-import list_debug from './list_debug';
 import fib_heap_link from './fib_heap_link';
-
-function debug_array ( A ) {
-
-	console.debug('DEGREE TABLE');
-	for (let i = 0; i < A.length; ++i) {
-		const x = A[i];
-		if (x === null) continue;
-		if (x.degree !== i) console.error('WRONG DEGREE');
-		list_debug(x.children, i, x.value, '>');
-	}
-
-}
 
 /**
  * CONSOLIDATE: Consolidate the root list of a heap.
@@ -40,13 +27,11 @@ function debug_array ( A ) {
  * @param l Root list.
  */
 export default function consolidate(compare, l) {
-	//console.debug('consolidate');
 	const A = [];
 
 	let next = l;
 
 	do {
-		//debug_array(A);
 		let x = next;
 		next = x.next;
 		let d = x.degree;
@@ -80,8 +65,6 @@ export default function consolidate(compare, l) {
 
 	let min = null;
 
-	//debug_array(A);
-
 	for (const x of A) {
 		if (x === null) continue;
 		if (min === null) {
@@ -96,10 +79,6 @@ export default function consolidate(compare, l) {
 			if (compare(x.value, min.value) < 0) min = x;
 		}
 	}
-
-	//console.debug('ROOT LIST');
-	//list_debug(min);
-	//console.debug('=========');
 
 	return min;
 }
