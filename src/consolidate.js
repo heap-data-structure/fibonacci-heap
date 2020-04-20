@@ -1,5 +1,5 @@
 import list_insert from './list_insert';
-import fib_heap_link from './fib_heap_link';
+import link from './link';
 
 /**
  * CONSOLIDATE: Consolidate the root list of a heap.
@@ -50,8 +50,8 @@ export default function consolidate(compare, l) {
 					x = A[d];
 				}
 
-				fib_heap_link(y, x);
-				A[d] = null; // Put before fib_heap_link if using x.degree ?
+				link(y, x);
+				A[d] = null; // Put before link if using x.degree ?
 				++d;
 				if (d === A.length) {
 					A.push(null);
