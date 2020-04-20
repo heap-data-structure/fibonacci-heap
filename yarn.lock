@@ -24,10 +24,10 @@
   resolved "https://registry.yarnpkg.com/@aureooms/js-functools/-/js-functools-2.0.3.tgz#5139d6245278193da4cf21c44666797bf40a1d6e"
   integrity sha1-UTnWJFJ4GT2kzyHERmZ5e/QKHW4=
 
-"@aureooms/js-heap-spec@14.0.0":
-  version "14.0.0"
-  resolved "https://registry.yarnpkg.com/@aureooms/js-heap-spec/-/js-heap-spec-14.0.0.tgz#acc1550e2689ab17809ce70d9b8e1b3c091c7135"
-  integrity sha512-HC6wktyhJlkxyhKWSl+2JXn6rkoxrBb3gwGciEduQ5JY0mV1j8COMEylHbzrybdTWxOfy/z+3tPuXPiV/zuLkw==
+"@aureooms/js-heap-spec@15.0.3":
+  version "15.0.3"
+  resolved "https://registry.yarnpkg.com/@aureooms/js-heap-spec/-/js-heap-spec-15.0.3.tgz#7511d74722da20b4379b709f2ab17f0bd39482a2"
+  integrity sha512-Ibp3wYGkrpKPE/xGG8erLAa7qkPYMJv7cnEaAuS2BG9Jb/FA7M4HT9BZi4HAPPktVDiviv4YtF8Rr1wKnQYQWA==
   dependencies:
     "@aureooms/js-compare" "^1.4.5"
     "@aureooms/js-functools" "^2.0.3"
