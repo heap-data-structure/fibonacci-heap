@@ -24,7 +24,8 @@
             "./doc/manual/overview.md",
             "./doc/manual/installation.md",
             "./doc/manual/usage.md",
-            "./doc/manual/example.md"
+            "./doc/manual/example.md",
+            "./doc/manual/theory.md"
           ]
         }
       }
