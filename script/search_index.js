@@ -30,9 +30,9 @@ window.esdocSearchIndex = [
     "function"
   ],
   [
-    "@aureooms/js-fibonacci-heap/src/fib_heap_link.js~fib_heap_link",
-    "function/index.html#static-function-fib_heap_link",
-    "<span>fib_heap_link</span> <span class=\"search-result-import-path\">@aureooms/js-fibonacci-heap/src/fib_heap_link.js</span>",
+    "@aureooms/js-fibonacci-heap/src/link.js~link",
+    "function/index.html#static-function-link",
+    "<span>link</span> <span class=\"search-result-import-path\">@aureooms/js-fibonacci-heap/src/link.js</span>",
     "function"
   ],
   [
@@ -516,15 +516,15 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
-    "src/fib_heap_link.js",
-    "file/src/fib_heap_link.js.html",
-    "src/fib_heap_link.js",
-    "file"
-  ],
-  [
     "src/index.js",
     "file/src/index.js.html",
     "src/index.js",
+    "file"
+  ],
+  [
+    "src/link.js",
+    "file/src/link.js.html",
+    "src/link.js",
     "file"
   ],
   [

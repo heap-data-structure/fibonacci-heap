@@ -34,7 +34,7 @@
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-cascading_cut">cascading_cut</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-consolidate">consolidate</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-cut">cut</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fib_heap_link">fib_heap_link</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-link">link</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-list_concatenate">list_concatenate</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-list_insert">list_insert</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-list_iter">list_iter</a></span></span></li>
@@ -46,7 +46,7 @@
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/consolidate.js</h1>
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import list_insert from &apos;./list_insert&apos;;
-import fib_heap_link from &apos;./fib_heap_link&apos;;
+import link from &apos;./link&apos;;
 
 /**
  * CONSOLIDATE: Consolidate the root list of a heap.
@@ -97,8 +97,8 @@ export default function consolidate(compare, l) {
 					x = A[d];
 				}
 
-				fib_heap_link(y, x);
-				A[d] = null; // Put before fib_heap_link if using x.degree ?
+				link(y, x);
+				A[d] = null; // Put before link if using x.degree ?
 				++d;
 				if (d === A.length) {
 					A.push(null);

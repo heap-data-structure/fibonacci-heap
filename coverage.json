@@ -41,7 +41,7 @@
         3
       ]
     },
-    "src/fib_heap_link.js": {
+    "src/link.js": {
       "expectCount": 1,
       "actualCount": 1,
       "undocumentLines": []

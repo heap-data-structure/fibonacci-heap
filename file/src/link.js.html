@@ -2,8 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <base data-ice="baseUrl">
-  <title data-ice="title">Home | @aureooms/js-fibonacci-heap</title>
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/link.js | @aureooms/js-fibonacci-heap</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -44,25 +44,31 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="-a-href--https---aureooms-github-io-js-fibonacci-heap---aureooms-js-fibonacci-heap--a-"><a href="https://aureooms.github.io/js-fibonacci-heap">@aureooms/js-fibonacci-heap</a></h1><p>Fibonacci heap data structure for JavaScript.
-See <a href="https://aureooms.github.io/js-fibonacci-heap/index.html">docs</a>.</p>
-<blockquote>
-<p>:warning: The code needs a ES2015+ polyfill to run (<code>regeneratorRuntime</code>),
-for instance <a href="https://babeljs.io/docs/usage/polyfill">@babel/polyfill</a>.</p>
-</blockquote>
-<p><a href="https://raw.githubusercontent.com/aureooms/js-fibonacci-heap/master/LICENSE"><img src="https://img.shields.io/github/license/aureooms/js-fibonacci-heap.svg" alt="License"></a>
-<a href="https://www.npmjs.org/package/@aureooms/js-fibonacci-heap"><img src="https://img.shields.io/npm/v/@aureooms/js-fibonacci-heap.svg" alt="Version"></a>
-<a href="https://travis-ci.org/aureooms/js-fibonacci-heap/branches"><img src="https://img.shields.io/travis/aureooms/js-fibonacci-heap/master.svg" alt="Build"></a>
-<a href="https://david-dm.org/aureooms/js-fibonacci-heap"><img src="https://img.shields.io/david/aureooms/js-fibonacci-heap.svg" alt="Dependencies"></a>
-<a href="https://david-dm.org/aureooms/js-fibonacci-heap?type=dev"><img src="https://img.shields.io/david/dev/aureooms/js-fibonacci-heap.svg" alt="Dev dependencies"></a>
-<a href="https://github.com/aureooms/js-fibonacci-heap/issues"><img src="https://img.shields.io/github/issues/aureooms/js-fibonacci-heap.svg" alt="GitHub issues"></a>
-<a href="https://www.npmjs.org/package/@aureooms/js-fibonacci-heap"><img src="https://img.shields.io/npm/dm/@aureooms/js-fibonacci-heap.svg" alt="Downloads"></a></p>
-<p><a href="https://codeclimate.com/github/aureooms/js-fibonacci-heap/issues"><img src="https://img.shields.io/codeclimate/issues/aureooms/js-fibonacci-heap.svg" alt="Code issues"></a>
-<a href="https://codeclimate.com/github/aureooms/js-fibonacci-heap/trends/churn"><img src="https://img.shields.io/codeclimate/maintainability/aureooms/js-fibonacci-heap.svg" alt="Code maintainability"></a>
-<a href="https://codecov.io/gh/aureooms/js-fibonacci-heap"><img src="https://img.shields.io/codecov/c/gh/aureooms/js-fibonacci-heap/master.svg" alt="Code coverage (cov)"></a>
-<a href="https://codeclimate.com/github/aureooms/js-fibonacci-heap/trends/technical_debt"><img src="https://img.shields.io/codeclimate/tech-debt/aureooms/js-fibonacci-heap.svg" alt="Code technical debt"></a>
-<a href="https://aureooms.github.io/js-fibonacci-heap/source.html"><img src="https://aureooms.github.io/js-fibonacci-heap/badge.svg" alt="Documentation"></a></p>
-</div>
+<div class="content" data-ice="content"><h1 data-ice="title">src/link.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import list_insert from &apos;./list_insert&apos;;
+
+/**
+ * FIB-HEAP-LINK
+ *
+ * Precondition: y is in the root list of some heap.
+ */
+export default function link(y, x) {
+	// List_remove(y); // NOT NECESSARY SINCE y IS ALWAYS FROM ROOT LIST
+	// make y a child of x
+	if (x.children === null) {
+		y.next = y;
+		y.prev = y;
+		x.children = y;
+	} else {
+		list_insert(x.children, y);
+	}
+
+	y.parent = x;
+	++x.degree; // Increment x.degree
+	y.mark = false; // Unmark y
+}
+</code></pre>
+
 </div>
 
 <footer class="footer">
