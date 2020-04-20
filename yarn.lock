@@ -24,7 +24,7 @@
   resolved "https://registry.yarnpkg.com/@aureooms/js-functools/-/js-functools-2.0.3.tgz#5139d6245278193da4cf21c44666797bf40a1d6e"
   integrity sha1-UTnWJFJ4GT2kzyHERmZ5e/QKHW4=
 
-"@aureooms/js-heap-spec@^14.0.0":
+"@aureooms/js-heap-spec@14.0.0":
   version "14.0.0"
   resolved "https://registry.yarnpkg.com/@aureooms/js-heap-spec/-/js-heap-spec-14.0.0.tgz#acc1550e2689ab17809ce70d9b8e1b3c091c7135"
   integrity sha512-HC6wktyhJlkxyhKWSl+2JXn6rkoxrBb3gwGciEduQ5JY0mV1j8COMEylHbzrybdTWxOfy/z+3tPuXPiV/zuLkw==
