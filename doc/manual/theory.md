@@ -1,6 +1,6 @@
 # Theory
 
-The Fibonacci heaps guarantees that decrease-key operations can be executed in
+The Fibonacci heap guarantees that decrease-key operations can be executed in
 amortized constant time.
 
 > The Fibonacci heap is of interest only if the user needs the decrease-key
@@ -27,11 +27,11 @@ of the root list of `H` and `M(H)` is the number of marked nodes of `H`.
 Let `D(H)` denote the maximum degree of a node in `H`, then the real cost,
 potential change, and amortized cost of the heap operations are respectively:
 
-  - MAKE-HEAP: `O(1)`, `0`, `O(1)`.
-  - INSERT: `O(1)`, `1`, `O(1)`.
-  - MELD: `O(1)`, `0`, `O(1)`
-  - DECREASE-KEY: `O(c)`, `2-c`, `O(1)`
-  - DELETE-MIN: `O(R(H) + D(H))`, `O(1)-R(H)` ,`O(D(H))`
+  - [MAKE-HEAP](#make-heap): `O(1)`, `0`, `O(1)`.
+  - [INSERT](#insert): `O(1)`, `1`, `O(1)`.
+  - [MELD](#meld): `O(1)`, `0`, `O(1)`
+  - [DECREASE-KEY](#decrease-key): `O(c)`, `2-c`, `O(1)`
+  - [DELETE-MIN](#delete-min): `O(R(H) + D(H))`, `O(1)-R(H)` ,`O(D(H))`
 
 Where `c` in DECREASE-KEY can be has large as the height of the tallest tree in
 our collection.
@@ -51,17 +51,17 @@ therefore i-1.
 
 Whenever a child is removed from a parent (cut), one of two things happens:
 
-  - if the parent is marked, we cut it.
-  - if the parent is not marked, we mark it.
+  1. If the parent is marked, we cut it.
+  2. If the parent is not marked, we mark it.
 
 This guarantees that the degree of the ith child of a parent is at least i - 2.
 
 It can then be proven that the size of any node x of degree k is
 `size(x) >= F_{k+2} >= phi^k` where `F_i` is the ith Fibonacci number.
 
-*Hint: `F_{k+2} = 1 + F_0 + F_1 + ... + F_k`.*
+> Hint: `F_{k+2} = 1 + F_0 + F_1 + ... + F_k`.
 
-#### Problems
+#### Problems (with solutions)
 
 We may have to cut repeatedly if a chain of ancestors is marked when we cut a
 node. We can amortize this cost because each cut ancestors can be unmarked.
@@ -132,7 +132,7 @@ To amortize this costly operation, we need to reduce the number of nodes in the
 root list. We do so by making sure there is at most one node of each degree in
 the root list. We call this procedure CONSOLIDATE. Once that procedure is
 finished, there are at most `D(H) + 1` nodes left in the root list. The real
-cost of the procedure is proportional to `R(H) + D(H)` (see [below](#CONSOLIDATE)),
+cost of the procedure is proportional to `R(H) + D(H)` (see [below](#consolidate)),
 the same as updating the minimum.
 
 > There are at most `D(H) + 1` left in the root list after this procedure is
