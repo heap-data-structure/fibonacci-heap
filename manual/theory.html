@@ -61,7 +61,7 @@
     <li data-ice="manualNav" class="indent-h1" data-link="manual/theory.html"><a href="manual/theory.html" data-ice="link">Theory</a></li>
 <li data-ice="manualNav" class="indent-h2" data-link="manual/theory.html"><a href="manual/theory.html#idea" data-ice="link">Idea</a></li>
 <li data-ice="manualNav" class="indent-h3" data-link="manual/theory.html"><a href="manual/theory.html#how-to-keep-the-degrees-low" data-ice="link">How to keep the degrees low</a></li>
-<li data-ice="manualNav" class="indent-h4" data-link="manual/theory.html"><a href="manual/theory.html#problems" data-ice="link">Problems</a></li>
+<li data-ice="manualNav" class="indent-h4" data-link="manual/theory.html"><a href="manual/theory.html#problems--with-solutions-" data-ice="link">Problems (with solutions)</a></li>
 <li data-ice="manualNav" class="indent-h2" data-link="manual/theory.html"><a href="manual/theory.html#heap-operations" data-ice="link">Heap Operations</a></li>
 <li data-ice="manualNav" class="indent-h3" data-link="manual/theory.html"><a href="manual/theory.html#make-heap" data-ice="link">MAKE-HEAP</a></li>
 <li data-ice="manualNav" class="indent-h3" data-link="manual/theory.html"><a href="manual/theory.html#insert" data-ice="link">INSERT</a></li>
@@ -74,7 +74,7 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><div class="github-markdown" data-ice="content"><h1 id="theory">Theory</h1><p>The Fibonacci heaps guarantees that decrease-key operations can be executed in
+<div class="content" data-ice="content"><div class="github-markdown" data-ice="content"><h1 id="theory">Theory</h1><p>The Fibonacci heap guarantees that decrease-key operations can be executed in
 amortized constant time.</p>
 <blockquote>
 <p>The Fibonacci heap is of interest only if the user needs the decrease-key
@@ -96,11 +96,11 @@ of the root list of <code>H</code> and <code>M(H)</code> is the number of marked
 <p>Let <code>D(H)</code> denote the maximum degree of a node in <code>H</code>, then the real cost,
 potential change, and amortized cost of the heap operations are respectively:</p>
 <ul>
-<li>MAKE-HEAP: <code>O(1)</code>, <code>0</code>, <code>O(1)</code>.</li>
-<li>INSERT: <code>O(1)</code>, <code>1</code>, <code>O(1)</code>.</li>
-<li>MELD: <code>O(1)</code>, <code>0</code>, <code>O(1)</code></li>
-<li>DECREASE-KEY: <code>O(c)</code>, <code>2-c</code>, <code>O(1)</code></li>
-<li>DELETE-MIN: <code>O(R(H) + D(H))</code>, <code>O(1)-R(H)</code> ,<code>O(D(H))</code></li>
+<li><a href="#make-heap">MAKE-HEAP</a>: <code>O(1)</code>, <code>0</code>, <code>O(1)</code>.</li>
+<li><a href="#insert">INSERT</a>: <code>O(1)</code>, <code>1</code>, <code>O(1)</code>.</li>
+<li><a href="#meld">MELD</a>: <code>O(1)</code>, <code>0</code>, <code>O(1)</code></li>
+<li><a href="#decrease-key">DECREASE-KEY</a>: <code>O(c)</code>, <code>2-c</code>, <code>O(1)</code></li>
+<li><a href="#delete-min">DELETE-MIN</a>: <code>O(R(H) + D(H))</code>, <code>O(1)-R(H)</code> ,<code>O(D(H))</code></li>
 </ul>
 <p>Where <code>c</code> in DECREASE-KEY can be has large as the height of the tallest tree in
 our collection.</p>
@@ -113,15 +113,17 @@ we guarantee that the child&apos;s degree is equal to the parent&apos;s degree.<
 <p>If this child is the ith node to be added to the parent, its degree is
 therefore i-1.</p>
 <p>Whenever a child is removed from a parent (cut), one of two things happens:</p>
-<ul>
-<li>if the parent is marked, we cut it.</li>
-<li>if the parent is not marked, we mark it.</li>
-</ul>
+<ol>
+<li>If the parent is marked, we cut it.</li>
+<li>If the parent is not marked, we mark it.</li>
+</ol>
 <p>This guarantees that the degree of the ith child of a parent is at least i - 2.</p>
 <p>It can then be proven that the size of any node x of degree k is
 <code>size(x) &gt;= F_{k+2} &gt;= phi^k</code> where <code>F_i</code> is the ith Fibonacci number.</p>
-<p><em>Hint: <code>F_{k+2} = 1 + F_0 + F_1 + ... + F_k</code>.</em></p>
-<h4 id="problems">Problems</h4><p>We may have to cut repeatedly if a chain of ancestors is marked when we cut a
+<blockquote>
+<p>Hint: <code>F_{k+2} = 1 + F_0 + F_1 + ... + F_k</code>.</p>
+</blockquote>
+<h4 id="problems--with-solutions-">Problems (with solutions)</h4><p>We may have to cut repeatedly if a chain of ancestors is marked when we cut a
 node. We can amortize this cost because each cut ancestors can be unmarked.
 Hence the number of marked nodes drops proportionally to the number of cut
 nodes.</p>
@@ -168,7 +170,7 @@ node, that is <code>R(H) + D(H)</code>.</p>
 root list. We do so by making sure there is at most one node of each degree in
 the root list. We call this procedure CONSOLIDATE. Once that procedure is
 finished, there are at most <code>D(H) + 1</code> nodes left in the root list. The real
-cost of the procedure is proportional to <code>R(H) + D(H)</code> (see <a href="#CONSOLIDATE">below</a>),
+cost of the procedure is proportional to <code>R(H) + D(H)</code> (see <a href="#consolidate">below</a>),
 the same as updating the minimum.</p>
 <blockquote>
 <p>There are at most <code>D(H) + 1</code> left in the root list after this procedure is
