@@ -5,8 +5,8 @@ Fibonacci heap data structure for JavaScript.
 See [docs](https://aureooms.github.io/js-fibonacci-heap/index.html).
 Parent is [@aureooms/js-heap](https://github.com/aureooms/js-heap).
 
-> :warning: The code needs a ES2015+ polyfill to run (`regeneratorRuntime`),
-> for instance [@babel/polyfill](https://babeljs.io/docs/usage/polyfill).
+> :warning: The code requires `regeneratorRuntime` to be defined, for instance by importing
+> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
 
 ```js
 let heap = new FibonacciHeap( compare.increasing ) ;
