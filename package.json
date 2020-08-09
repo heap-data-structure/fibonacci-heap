@@ -29,7 +29,9 @@
   "bugs": {
     "url": "https://github.com/aureooms/js-fibonacci-heap/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@aureooms/js-cll": "^1.0.0"
+  },
   "devDependencies": {
     "@aureooms/js-heap-spec": "15.0.3",
     "@babel/cli": "7.10.5",

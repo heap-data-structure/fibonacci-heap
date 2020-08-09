@@ -1,4 +1,4 @@
-import list_insert from './list_insert';
+import {_append as list_insert} from '@aureooms/js-cll';
 
 /**
  * FIB-HEAP-LINK

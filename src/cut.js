@@ -1,4 +1,4 @@
-import list_remove from './list_remove';
+import {_remove as list_remove} from '@aureooms/js-cll';
 
 export default function cut(x, y) {
 	if (x === x.next) y.children = null;

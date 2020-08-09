@@ -1,8 +1,11 @@
 import Node from './Node';
 
-import list_insert from './list_insert';
-import list_remove from './list_remove';
-import list_concatenate from './list_concatenate';
+import {
+	_append as list_insert,
+	_remove as list_remove,
+	_concat as list_concatenate
+} from '@aureooms/js-cll';
+
 import list_reset_parent from './list_reset_parent';
 
 import consolidate from './consolidate';
