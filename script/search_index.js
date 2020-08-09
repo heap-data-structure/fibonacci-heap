@@ -36,30 +36,6 @@ window.esdocSearchIndex = [
     "function"
   ],
   [
-    "@aureooms/js-fibonacci-heap/src/list_concatenate.js~list_concatenate",
-    "function/index.html#static-function-list_concatenate",
-    "<span>list_concatenate</span> <span class=\"search-result-import-path\">@aureooms/js-fibonacci-heap/src/list_concatenate.js</span>",
-    "function"
-  ],
-  [
-    "@aureooms/js-fibonacci-heap/src/list_insert.js~list_insert",
-    "function/index.html#static-function-list_insert",
-    "<span>list_insert</span> <span class=\"search-result-import-path\">@aureooms/js-fibonacci-heap/src/list_insert.js</span>",
-    "function"
-  ],
-  [
-    "@aureooms/js-fibonacci-heap/src/list_iter.js~list_iter",
-    "function/index.html#static-function-list_iter",
-    "<span>list_iter</span> <span class=\"search-result-import-path\">@aureooms/js-fibonacci-heap/src/list_iter.js</span>",
-    "function"
-  ],
-  [
-    "@aureooms/js-fibonacci-heap/src/list_remove.js~list_remove",
-    "function/index.html#static-function-list_remove",
-    "<span>list_remove</span> <span class=\"search-result-import-path\">@aureooms/js-fibonacci-heap/src/list_remove.js</span>",
-    "function"
-  ],
-  [
     "@aureooms/js-fibonacci-heap/src/list_reset_parent.js~list_reset_parent",
     "function/index.html#static-function-list_reset_parent",
     "<span>list_reset_parent</span> <span class=\"search-result-import-path\">@aureooms/js-fibonacci-heap/src/list_reset_parent.js</span>",
@@ -525,30 +501,6 @@ window.esdocSearchIndex = [
     "src/link.js",
     "file/src/link.js.html",
     "src/link.js",
-    "file"
-  ],
-  [
-    "src/list_concatenate.js",
-    "file/src/list_concatenate.js.html",
-    "src/list_concatenate.js",
-    "file"
-  ],
-  [
-    "src/list_insert.js",
-    "file/src/list_insert.js.html",
-    "src/list_insert.js",
-    "file"
-  ],
-  [
-    "src/list_iter.js",
-    "file/src/list_iter.js.html",
-    "src/list_iter.js",
-    "file"
-  ],
-  [
-    "src/list_remove.js",
-    "file/src/list_remove.js.html",
-    "src/list_remove.js",
     "file"
   ],
   [

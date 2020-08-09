@@ -1,13 +1,13 @@
 {
-  "coverage": "64.7%",
-  "expectCount": 34,
-  "actualCount": 22,
+  "coverage": "66.66%",
+  "expectCount": 30,
+  "actualCount": 20,
   "files": {
     "src/FibonacciHeap.js": {
       "expectCount": 16,
       "actualCount": 15,
       "undocumentLines": [
-        26
+        29
       ]
     },
     "src/Node.js": {
@@ -42,30 +42,6 @@
       ]
     },
     "src/link.js": {
-      "expectCount": 1,
-      "actualCount": 1,
-      "undocumentLines": []
-    },
-    "src/list_concatenate.js": {
-      "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        1
-      ]
-    },
-    "src/list_insert.js": {
-      "expectCount": 1,
-      "actualCount": 1,
-      "undocumentLines": []
-    },
-    "src/list_iter.js": {
-      "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        1
-      ]
-    },
-    "src/list_remove.js": {
       "expectCount": 1,
       "actualCount": 1,
       "undocumentLines": []

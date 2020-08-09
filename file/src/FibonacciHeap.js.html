@@ -35,10 +35,6 @@
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-consolidate">consolidate</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-cut">cut</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-link">link</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-list_concatenate">list_concatenate</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-list_insert">list_insert</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-list_iter">list_iter</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-list_remove">list_remove</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-list_reset_parent">list_reset_parent</a></span></span></li>
 </ul>
 </div>
@@ -47,9 +43,12 @@
 <div class="content" data-ice="content"><h1 data-ice="title">src/FibonacciHeap.js</h1>
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import Node from &apos;./Node&apos;;
 
-import list_insert from &apos;./list_insert&apos;;
-import list_remove from &apos;./list_remove&apos;;
-import list_concatenate from &apos;./list_concatenate&apos;;
+import {
+	_append as list_insert,
+	_remove as list_remove,
+	_concat as list_concatenate
+} from &apos;@aureooms/js-cll&apos;;
+
 import list_reset_parent from &apos;./list_reset_parent&apos;;
 
 import consolidate from &apos;./consolidate&apos;;
