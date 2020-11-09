@@ -6,9 +6,10 @@ amortized constant time.
 > The Fibonacci heap is of interest only if the user needs the decrease-key
 > operation heavily. Use another data structure with better constants otherwise.
 
-Recall that for any sequence of operations, the sum of the real costs of the
-operations is upper bounded by the sum of the amortized costs of the
-operations (as long as our potential stays non-negative).
+Recall that, in an amortized analysis, for any sequence of operations, the sum
+of the actual total cost of the performed operations is upper bounded by the
+sum of the amortized costs of these operations (as long as the potential
+defined for the analysis is non-negative at all times).
 
 ## Idea
 
@@ -24,7 +25,7 @@ We amortize the cost of each operation on a heap `H` with `n` elements
 using the following potential `P(H) = R(H) + 2 M(H)` where `R(H)` is the size
 of the root list of `H` and `M(H)` is the number of marked nodes of `H`.
 
-Let `D(H)` denote the maximum degree of a node in `H`, then the real cost,
+Let `D(H)` denote the maximum degree of a node in `H`, then the actual cost,
 potential change, and amortized cost of the heap operations are respectively:
 
   - [MAKE-HEAP](#make-heap): `O(1)`, `0`, `O(1)`.
@@ -37,7 +38,7 @@ Where `c` in DECREASE-KEY can be has large as the height of the tallest tree in
 our collection.
 
 To obtain a good bound on the amortized cost of the DELETE-MIN
-operation we make sure each subtree of a node `x` has `size(x) >=
+operation we make sure each subtree rooted at a node `x` has `size(x) >=
 phi^degree(x)` (`phi` is the golden ratio `1.618...`) so that `D(H) = O(log
 n)`.
 
@@ -47,17 +48,17 @@ Whenever the decision is made to add a node to a parent as a child (link),
 we guarantee that the child's degree is equal to the parent's degree.
 
 If this child is the ith node to be added to the parent, its degree is
-therefore i-1.
+therefore `i-1`.
 
 Whenever a child is removed from a parent (cut), one of two things happens:
 
   1. If the parent is marked, we cut it.
   2. If the parent is not marked, we mark it.
 
-This guarantees that the degree of the ith child of a parent is at least i - 2.
+This guarantees that the degree of the ith child of a parent is at least `i - 2`.
 
-It can then be proven that the size of any node x of degree k is
-`size(x) >= F_{k+2} >= phi^k` where `F_i` is the ith Fibonacci number.
+It can then be proven that the size of the subtree rooted at a node `x` of degree
+`k` is `size(x) >= F_{k+2} >= phi^k` where `F_i` is the ith Fibonacci number.
 
 > Hint: `F_{k+2} = 1 + F_0 + F_1 + ... + F_k`.
 
@@ -69,7 +70,7 @@ Hence the number of marked nodes drops proportionally to the number of cut
 nodes.
 
 The number of root nodes may grow arbitrarily large through INSERT, MERGE, and
-DECREASE-KEY operations. This will increase the real cost of the next
+DECREASE-KEY operations. This will increase the actual cost of the next
 DELETE-MIN operation but also the potential of the heap.
 The DELETE-MIN operation will therefore include a
 restructuring procedure leveraging this high potential to amortize its high
@@ -82,19 +83,19 @@ Fibonacci heap.
 
 ### MAKE-HEAP
 
-Initialize an empty heap. Real cost is O(1) and initial potential is zero.
+Initialize an empty heap. Actual cost is O(1) and initial potential is zero.
 Amortized cost is therefore O(1).
 
 ### INSERT
 
 Add new node as a root node. Update minimum with a single comparison.
-The real cost of this operation is constant. The change of potential is one.
+The actual cost of this operation is constant. The change of potential is one.
 The amortized cost of this operation is therefore O(1).
 
 ### MELD
 
 Concatenate heaps root lists in constant time. Update minimum with a single
-comparison. The real cost of this operation is constant and the change of
+comparison. The actual cost of this operation is constant and the change of
 potential is zero. Amortized cost is therefore O(1).
 
 NB: Insert is meld where one of the heaps contains a single node.
@@ -113,12 +114,12 @@ ancestor is reached to guarantee the small degree property of the nodes.
 Fortunately, as already noted, we can amortize this cost because each cut
 ancestors can be unmarked. Hence the number of marked nodes drops
 proportionally to the number of cut nodes. The exact computation gives, for `c`
-cut nodes, a real cost of `O(c)`, a change of potential of `2-c`, and an
+cut nodes, a actual cost of `O(c)`, a change of potential of `2-c`, and an
 amortized cost of `O(1)`.
 
 ### DELETE-MIN
 
-Minimum node is a root node. We can add all children of the deleted node as
+The minimum node is a root node. We can add all children of the deleted node as
 root nodes. This increases the number of root nodes by the degree of the
 deleted node. Since the degree of a node is at most `D(H)`, the number of root nodes
 increases by at most `D(H)`.
@@ -131,16 +132,16 @@ node, that is `R(H) + D(H)`.
 To amortize this costly operation, we need to reduce the number of nodes in the
 root list. We do so by making sure there is at most one node of each degree in
 the root list. We call this procedure CONSOLIDATE. Once that procedure is
-finished, there are at most `D(H) + 1` nodes left in the root list. The real
+finished, there are at most `D(H) + 1` nodes left in the root list. The actual
 cost of the procedure is proportional to `R(H) + D(H)` (see [below](#consolidate)),
 the same as updating the minimum.
 
-> There are at most `D(H) + 1` left in the root list after this procedure is
+> There are at most `D(H) + 1` nodes left in the root list after this procedure is
 > run because the list contains at most one node of each degree:
 > one node of degree `0`, one node of degree `1`, ..., and one node of degree
 > `D(H)`.
 
-To sum up, the real cost of DELETE-MIN is `O(R(H)+D(H))`, the change of
+To sum up, the actual cost of DELETE-MIN is `O(R(H)+D(H))`, the change of
 potential is at most `O(1) - R(H)`, and the amortized cost is therefore
 `O(D(H))`.
 
