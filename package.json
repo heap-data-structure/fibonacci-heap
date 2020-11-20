@@ -73,9 +73,8 @@
   },
   "xo": {
     "prettier": true,
-    "ignore": [
-      "lib",
-      "doc"
+    "ignores": [
+      "lib"
     ],
     "plugins": [
       "unicorn"
@@ -83,6 +82,14 @@
     "rules": {
       "camelcase": "off",
       "unicorn/filename-case": "off"
-    }
+    },
+    "overrides": [
+      {
+        "files": [
+          "doc/**"
+        ],
+        "env": "browser"
+      }
+    ]
   }
 }
