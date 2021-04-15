@@ -2,7 +2,58 @@
   "name": "@aureooms/js-fibonacci-heap",
   "description": "Fibonacci heap data structure for JavaScript",
   "version": "1.0.0",
+  "license": "AGPL-3.0",
   "author": "aureooms",
+  "homepage": "https://aureooms.github.io/js-fibonacci-heap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aureooms/js-fibonacci-heap"
+  },
+  "bugs": {
+    "url": "https://github.com/aureooms/js-fibonacci-heap/issues"
+  },
+  "keywords": [
+    "data",
+    "fibonacci",
+    "heap",
+    "structure"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rm -rf lib && babel src -d lib",
+    "cover": "nyc --reporter=lcov npm test",
+    "esdoc": "esdoc",
+    "lint-config": "fixpack --dryRun",
+    "lint-config-and-fix": "fixpack || fixpack",
+    "prepare": "npm run build",
+    "release": "np",
+    "test": "xo && ava"
+  },
+  "dependencies": {
+    "@aureooms/js-cll": "^1.0.0"
+  },
+  "devDependencies": {
+    "@aureooms/js-heap-spec": "15.0.3",
+    "@babel/cli": "7.13.10",
+    "@babel/core": "7.13.10",
+    "@babel/preset-env": "7.13.10",
+    "@babel/register": "7.13.8",
+    "ava": "3.15.0",
+    "coveralls": "3.1.0",
+    "esdoc": "1.1.0",
+    "esdoc-ecmascript-proposal-plugin": "1.0.0",
+    "esdoc-inject-script-plugin": "1.0.0",
+    "esdoc-inject-style-plugin": "1.0.0",
+    "esdoc-standard-plugin": "1.0.0",
+    "fixpack": "4.0.0",
+    "np": "7.4.0",
+    "nyc": "15.1.0",
+    "regenerator-runtime": "0.13.7",
+    "xo": "0.36.1"
+  },
   "ava": {
     "files": [
       "test/src/**/*"
@@ -22,57 +73,6 @@
         "sourceMaps": "inline"
       }
     }
-  },
-  "bugs": {
-    "url": "https://github.com/aureooms/js-fibonacci-heap/issues"
-  },
-  "dependencies": {
-    "@aureooms/js-cll": "^1.0.0"
-  },
-  "devDependencies": {
-    "@aureooms/js-heap-spec": "15.0.3",
-    "@babel/cli": "7.13.10",
-    "@babel/core": "7.13.10",
-    "@babel/preset-env": "7.13.10",
-    "@babel/register": "7.13.8",
-    "ava": "3.15.0",
-    "coveralls": "3.1.0",
-    "esdoc": "1.1.0",
-    "esdoc-ecmascript-proposal-plugin": "1.0.0",
-    "esdoc-inject-script-plugin": "1.0.0",
-    "esdoc-inject-style-plugin": "1.0.0",
-    "esdoc-standard-plugin": "1.0.0",
-    "np": "7.4.0",
-    "nyc": "15.1.0",
-    "regenerator-runtime": "0.13.7",
-    "xo": "0.36.1",
-    "fixpack": "4.0.0"
-  },
-  "files": [
-    "lib"
-  ],
-  "homepage": "https://aureooms.github.io/js-fibonacci-heap",
-  "keywords": [
-    "data",
-    "fibonacci",
-    "heap",
-    "structure"
-  ],
-  "license": "AGPL-3.0",
-  "main": "lib/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/aureooms/js-fibonacci-heap"
-  },
-  "scripts": {
-    "build": "rm -rf lib && babel src -d lib",
-    "cover": "nyc --reporter=lcov npm test",
-    "esdoc": "esdoc",
-    "prepare": "npm run build",
-    "release": "np",
-    "test": "xo && ava",
-    "lint-config-and-fix": "fixpack || fixpack",
-    "lint-config": "fixpack --dryRun"
   },
   "xo": {
     "prettier": true,
