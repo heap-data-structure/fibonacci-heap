@@ -179,6 +179,9 @@
       }
     }
   },
+  "prettier": {
+    "trailingComma": "all"
+  },
   "xo": {
     "prettier": true,
     "ignores": [
