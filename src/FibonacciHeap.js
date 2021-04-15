@@ -3,7 +3,7 @@ import Node from './Node.js';
 import {
 	_append as list_insert,
 	_remove as list_remove,
-	_concat as list_concatenate
+	_concat as list_concatenate,
 } from '@aureooms/js-cll';
 
 import list_reset_parent from './list_reset_parent.js';
