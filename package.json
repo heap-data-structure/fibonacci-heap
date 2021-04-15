@@ -53,7 +53,7 @@
     "prepare": "npm run build",
     "prepublishOnly": "pinst --disable",
     "release": "np",
-    "test": "xo && ava"
+    "test": "ava"
   },
   "dependencies": {
     "@aureooms/js-cll": "^1.0.0"
