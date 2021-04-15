@@ -1,4 +1,4 @@
-[@aureooms/js-fibonacci-heap](https://aureooms.github.io/js-fibonacci-heap)
+:shell: [@aureooms/js-fibonacci-heap](https://aureooms.github.io/js-fibonacci-heap)
 ==
 
 Fibonacci heap data structure for JavaScript.
@@ -27,7 +27,7 @@ let heap = new FibonacciHeap( compare.increasing ) ;
 [![Documentation](https://aureooms.github.io/js-fibonacci-heap/badge.svg)](https://aureooms.github.io/js-fibonacci-heap/source.html)
 
 
-## References
+## :scroll: References
 
   - [Wikipedia Article on Fibonacci Heaps](https://en.wikipedia.org/wiki/Fibonacci_heap)
   - [Introduction to Algorithms Chapter 19](https://en.wikipedia.org/wiki/Introduction_to_Algorithms)
