@@ -94,7 +94,8 @@
     "env": {
       "development": {
         "sourceMaps": "inline"
-      }
+      },
+      "cover": {}
     }
   },
   "xo": {
