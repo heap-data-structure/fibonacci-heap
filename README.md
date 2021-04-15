@@ -27,6 +27,7 @@ let heap = new FibonacciHeap( increasing ) ;
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-fibonacci-heap/main.svg)](https://codecov.io/gh/aureooms/js-fibonacci-heap)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-fibonacci-heap.svg)](https://codeclimate.com/github/aureooms/js-fibonacci-heap/trends/technical_debt)
 [![Documentation](https://aureooms.github.io/js-fibonacci-heap/badge.svg)](https://aureooms.github.io/js-fibonacci-heap/source.html)
+[![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-fibonacci-heap)](https://bundlephobia.com/result?p=@aureooms/js-fibonacci-heap)
 
 
 ## :scroll: References
