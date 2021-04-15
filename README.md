@@ -9,7 +9,9 @@ Parent is [@aureooms/js-heap](https://github.com/aureooms/js-heap).
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
 
 ```js
-let heap = new FibonacciHeap( compare.increasing ) ;
+import {FibonacciHeap} from '@aureooms/js-fibonacci-heap';
+import {increasing} from '@aureooms/js-compare';
+let heap = new FibonacciHeap( increasing ) ;
 ```
 
 [![License](https://img.shields.io/github/license/aureooms/js-fibonacci-heap.svg)](https://raw.githubusercontent.com/aureooms/js-fibonacci-heap/main/LICENSE)
