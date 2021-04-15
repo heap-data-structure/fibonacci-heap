@@ -71,7 +71,8 @@
     "prepare": "npm run build",
     "release": "np",
     "test": "xo && ava",
-    "lint-config-and-fix": "fixpack || fixpack"
+    "lint-config-and-fix": "fixpack || fixpack",
+    "lint-config": "fixpack --dryRun"
   },
   "xo": {
     "prettier": true,
