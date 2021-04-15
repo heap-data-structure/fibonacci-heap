@@ -70,7 +70,8 @@
     "esdoc": "esdoc",
     "prepare": "npm run build",
     "release": "np",
-    "test": "xo && ava"
+    "test": "xo && ava",
+    "lint-config-and-fix": "fixpack || fixpack"
   },
   "xo": {
     "prettier": true,
