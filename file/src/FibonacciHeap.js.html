@@ -41,19 +41,19 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/FibonacciHeap.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import Node from &apos;./Node&apos;;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import Node from &apos;./Node.js&apos;;
 
 import {
 	_append as list_insert,
 	_remove as list_remove,
-	_concat as list_concatenate
+	_concat as list_concatenate,
 } from &apos;@aureooms/js-cll&apos;;
 
-import list_reset_parent from &apos;./list_reset_parent&apos;;
+import list_reset_parent from &apos;./list_reset_parent.js&apos;;
 
-import consolidate from &apos;./consolidate&apos;;
-import cut from &apos;./cut&apos;;
-import cascading_cut from &apos;./cascading_cut&apos;;
+import consolidate from &apos;./consolidate.js&apos;;
+import cut from &apos;./cut.js&apos;;
+import cascading_cut from &apos;./cascading_cut.js&apos;;
 
 /**
  * See CLRS09 Chapter 19 on the Fibonacci Heap.
