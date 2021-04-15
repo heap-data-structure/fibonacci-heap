@@ -1,5 +1,5 @@
-import Node from './Node';
-import FibonacciHeap from './FibonacciHeap';
+import Node from './Node.js';
+import FibonacciHeap from './FibonacciHeap.js';
 
 export default FibonacciHeap;
 

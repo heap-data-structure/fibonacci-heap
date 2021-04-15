@@ -1,4 +1,4 @@
-import cut from './cut';
+import cut from './cut.js';
 
 export default function* cascading_cut(y) {
 	while (true) {

@@ -3,7 +3,7 @@ import ava from 'ava';
 
 import * as spec from '@aureooms/js-heap-spec';
 
-import FibonacciHeap from '../../src';
+import FibonacciHeap from '../../src/index.js';
 
 const heaps = [['FibonacciHeap', (compare) => new FibonacciHeap(compare)]];
 

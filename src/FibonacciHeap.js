@@ -1,4 +1,4 @@
-import Node from './Node';
+import Node from './Node.js';
 
 import {
 	_append as list_insert,
@@ -6,11 +6,11 @@ import {
 	_concat as list_concatenate
 } from '@aureooms/js-cll';
 
-import list_reset_parent from './list_reset_parent';
+import list_reset_parent from './list_reset_parent.js';
 
-import consolidate from './consolidate';
-import cut from './cut';
-import cascading_cut from './cascading_cut';
+import consolidate from './consolidate.js';
+import cut from './cut.js';
+import cascading_cut from './cascading_cut.js';
 
 /**
  * See CLRS09 Chapter 19 on the Fibonacci Heap.

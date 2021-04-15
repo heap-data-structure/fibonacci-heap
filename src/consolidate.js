@@ -1,5 +1,5 @@
 import {_append as list_insert} from '@aureooms/js-cll';
-import link from './link';
+import link from './link.js';
 
 /**
  * CONSOLIDATE: Consolidate the root list of a heap.
