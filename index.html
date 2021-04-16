@@ -40,14 +40,16 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="-a-href--https---aureooms-github-io-js-fibonacci-heap---aureooms-js-fibonacci-heap--a-"><a href="https://aureooms.github.io/js-fibonacci-heap">@aureooms/js-fibonacci-heap</a></h1><p>Fibonacci heap data structure for JavaScript.
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="-shell---a-href--https---aureooms-github-io-js-fibonacci-heap---aureooms-js-fibonacci-heap--a-">:shell: <a href="https://aureooms.github.io/js-fibonacci-heap">@aureooms/js-fibonacci-heap</a></h1><p>Fibonacci heap data structure for JavaScript.
 See <a href="https://aureooms.github.io/js-fibonacci-heap/index.html">docs</a>.
 Parent is <a href="https://github.com/aureooms/js-heap">@aureooms/js-heap</a>.</p>
 <blockquote>
 <p>:warning: The code requires <code>regeneratorRuntime</code> to be defined, for instance by importing
 <a href="https://www.npmjs.com/package/regenerator-runtime">regenerator-runtime/runtime</a>.</p>
 </blockquote>
-<pre><code class="lang-js"><code class="source-code prettyprint">let heap = new FibonacciHeap( compare.increasing ) ;</code>
+<pre><code class="lang-js"><code class="source-code prettyprint">import {FibonacciHeap} from &apos;@aureooms/js-fibonacci-heap&apos;;
+import {increasing} from &apos;@aureooms/js-compare&apos;;
+let heap = new FibonacciHeap( increasing ) ;</code>
 </code></pre>
 <p><a href="https://raw.githubusercontent.com/aureooms/js-fibonacci-heap/main/LICENSE"><img src="https://img.shields.io/github/license/aureooms/js-fibonacci-heap.svg" alt="License"></a>
 <a href="https://www.npmjs.org/package/@aureooms/js-fibonacci-heap"><img src="https://img.shields.io/npm/v/@aureooms/js-fibonacci-heap.svg" alt="Version"></a>
@@ -60,8 +62,9 @@ Parent is <a href="https://github.com/aureooms/js-heap">@aureooms/js-heap</a>.</
 <a href="https://codeclimate.com/github/aureooms/js-fibonacci-heap/trends/churn"><img src="https://img.shields.io/codeclimate/maintainability/aureooms/js-fibonacci-heap.svg" alt="Code maintainability"></a>
 <a href="https://codecov.io/gh/aureooms/js-fibonacci-heap"><img src="https://img.shields.io/codecov/c/gh/aureooms/js-fibonacci-heap/main.svg" alt="Code coverage (cov)"></a>
 <a href="https://codeclimate.com/github/aureooms/js-fibonacci-heap/trends/technical_debt"><img src="https://img.shields.io/codeclimate/tech-debt/aureooms/js-fibonacci-heap.svg" alt="Code technical debt"></a>
-<a href="https://aureooms.github.io/js-fibonacci-heap/source.html"><img src="https://aureooms.github.io/js-fibonacci-heap/badge.svg" alt="Documentation"></a></p>
-<h2 id="references">References</h2><ul>
+<a href="https://aureooms.github.io/js-fibonacci-heap/source.html"><img src="https://aureooms.github.io/js-fibonacci-heap/badge.svg" alt="Documentation"></a>
+<a href="https://bundlephobia.com/result?p=@aureooms/js-fibonacci-heap"><img src="https://img.shields.io/bundlephobia/minzip/@aureooms/js-fibonacci-heap" alt="Package size"></a></p>
+<h2 id="-scroll--references">:scroll: References</h2><ul>
 <li><a href="https://en.wikipedia.org/wiki/Fibonacci_heap">Wikipedia Article on Fibonacci Heaps</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Introduction_to_Algorithms">Introduction to Algorithms Chapter 19</a></li>
 </ul>

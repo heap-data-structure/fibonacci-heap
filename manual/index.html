@@ -107,9 +107,9 @@ or <a href="https://jspm.org/docs">jspm</a>.</p><h3>yarn</h3><pre><code class="l
 </blockquote><p>First, require the polyfill at the entry point of your application</p><pre><code class="lang-js"><code class="source-code prettyprint">require( &apos;regenerator-runtime/runtime&apos; );
 // or
 import &apos;regenerator-runtime/runtime.js&apos; ;</code>
-</code></pre><p>Then, import the library where needed</p><pre><code class="lang-js"><code class="source-code prettyprint">const fibonacciheap = require( &apos;@aureooms/js-fibonacci-heap&apos; ) ;
+</code></pre><p>Then, import the library where needed</p><pre><code class="lang-js"><code class="source-code prettyprint">const {FibonacciHeap} = require( &apos;@aureooms/js-fibonacci-heap&apos; ) ;
 // or
-import * as fibonacciheap from &apos;@aureooms/js-fibonacci-heap&apos; ;</code>
+import {FibonacciHeap} from &apos;@aureooms/js-fibonacci-heap&apos; ;</code>
 </code></pre></div>
         <a data-ice="link" href="manual/usage.html"></a>
       </div>
