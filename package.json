@@ -59,7 +59,7 @@
     "test": "ava"
   },
   "dependencies": {
-    "@aureooms/js-cll": "^1.0.0"
+    "@aureooms/js-cll": "^2.0.0"
   },
   "devDependencies": {
     "@aureooms/js-heap-spec": "15.0.3",
