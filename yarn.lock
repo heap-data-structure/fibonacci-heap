@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@aureooms/js-cll@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@aureooms/js-cll/-/js-cll-1.0.0.tgz#56e986cb9d4d6099d4af6c1528c40a73c2edb5b2"
-  integrity sha512-oui+g5Ni813Hj/sWImiGsraU9JU9l9Zf0h+x75RyW17aaf1h7RKVzaZKaJWD/LlWUm6mn5iDo5omQDWnrSjFdw==
+"@aureooms/js-cll@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@aureooms/js-cll/-/js-cll-2.0.0.tgz#1594e6fe9785ac2cc697b5f3715883e45dc9d25b"
+  integrity sha512-3x5/+rZ9/KjFd/ynK+XCze2bN0UbVfaPOBsfDIXZXk5ytpTcuXWKKjFkXyS8sljtjImNJt6+LKIDdq8JO1fpYQ==
 
 "@aureooms/js-collections-deque@^3.1.0":
   version "3.1.0"
