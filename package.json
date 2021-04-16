@@ -1,7 +1,7 @@
 {
   "name": "@aureooms/js-fibonacci-heap",
   "description": "Fibonacci heap data structure for JavaScript",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "AGPL-3.0",
   "author": "aureooms",
   "homepage": "https://aureooms.github.io/js-fibonacci-heap",
