@@ -1,8 +1,8 @@
-:shell: [@aureooms/js-fibonacci-heap](https://aureooms.github.io/js-fibonacci-heap)
+:shell: [@aureooms/js-fibonacci-heap](https://make-github-pseudonymous-again.github.io/js-fibonacci-heap)
 ==
 
 Fibonacci heap data structure for JavaScript.
-See [docs](https://aureooms.github.io/js-fibonacci-heap/index.html).
+See [docs](https://make-github-pseudonymous-again.github.io/js-fibonacci-heap/index.html).
 Parent is [@aureooms/js-heap](https://github.com/aureooms/js-heap).
 
 > :warning: The code requires `regeneratorRuntime` to be defined, for instance by importing
@@ -26,7 +26,7 @@ let heap = new FibonacciHeap( increasing ) ;
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-fibonacci-heap.svg)](https://codeclimate.com/github/aureooms/js-fibonacci-heap/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-fibonacci-heap/main.svg)](https://codecov.io/gh/aureooms/js-fibonacci-heap)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-fibonacci-heap.svg)](https://codeclimate.com/github/aureooms/js-fibonacci-heap/trends/technical_debt)
-[![Documentation](https://aureooms.github.io/js-fibonacci-heap/badge.svg)](https://aureooms.github.io/js-fibonacci-heap/source.html)
+[![Documentation](https://make-github-pseudonymous-again.github.io/js-fibonacci-heap/badge.svg)](https://make-github-pseudonymous-again.github.io/js-fibonacci-heap/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-fibonacci-heap)](https://bundlephobia.com/result?p=@aureooms/js-fibonacci-heap)
 
 
