@@ -10,7 +10,7 @@ Parent is [@heap-data-structure/about](https://github.com/heap-data-structure/ab
 
 ```js
 import {FibonacciHeap} from '@heap-data-structure/fibonacci-heap';
-import {increasing} from '@heap-data-structure/js-compare';
+import {increasing} from '@aureooms/js-compare';
 let heap = new FibonacciHeap( increasing ) ;
 ```
 
