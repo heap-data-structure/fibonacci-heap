@@ -12,7 +12,7 @@ import 'regenerator-runtime/runtime.js' ;
 
 Then, import the library where needed
 ```js
-const {FibonacciHeap} = require( '@aureooms/js-fibonacci-heap' ) ;
+const {FibonacciHeap} = require( '@heap-data-structure/fibonacci-heap' ) ;
 // or
-import {FibonacciHeap} from '@aureooms/js-fibonacci-heap' ;
+import {FibonacciHeap} from '@heap-data-structure/fibonacci-heap' ;
 ```

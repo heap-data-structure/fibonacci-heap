@@ -17,7 +17,7 @@
           "autoPrivate": true
         },
         "brand": {
-          "title": "@aureooms/js-fibonacci-heap"
+          "title": "@heap-data-structure/fibonacci-heap"
         },
         "test": {
           "type": "ava",

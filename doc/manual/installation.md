@@ -8,15 +8,15 @@ or [jspm](https://jspm.org/docs).
 
 ### yarn
 ```terminal
-yarn add @aureooms/js-fibonacci-heap
+yarn add @heap-data-structure/fibonacci-heap
 ```
 
 ### npm
 ```terminal
-npm install @aureooms/js-fibonacci-heap --save
+npm install @heap-data-structure/fibonacci-heap --save
 ```
 
 ### jspm
 ```terminal
-jspm install npm:@aureooms/js-fibonacci-heap
+jspm install npm:@heap-data-structure/fibonacci-heap
 ```
