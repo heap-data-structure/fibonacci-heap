@@ -1,44 +1,44 @@
 window.esdocSearchIndex = [
   [
-    "@aureooms/js-fibonacci-heap/src/fibonacciheap.js~fibonacciheap",
+    "@heap-data-structure/fibonacci-heap/src/fibonacciheap.js~fibonacciheap",
     "class/src/FibonacciHeap.js~FibonacciHeap.html",
-    "<span>FibonacciHeap</span> <span class=\"search-result-import-path\">@aureooms/js-fibonacci-heap/src/FibonacciHeap.js</span>",
+    "<span>FibonacciHeap</span> <span class=\"search-result-import-path\">@heap-data-structure/fibonacci-heap/src/FibonacciHeap.js</span>",
     "class"
   ],
   [
-    "@aureooms/js-fibonacci-heap/src/node.js~node",
+    "@heap-data-structure/fibonacci-heap/src/node.js~node",
     "class/src/Node.js~Node.html",
-    "<span>Node</span> <span class=\"search-result-import-path\">@aureooms/js-fibonacci-heap/src/Node.js</span>",
+    "<span>Node</span> <span class=\"search-result-import-path\">@heap-data-structure/fibonacci-heap/src/Node.js</span>",
     "class"
   ],
   [
-    "@aureooms/js-fibonacci-heap/src/cascading_cut.js~cascading_cut",
+    "@heap-data-structure/fibonacci-heap/src/cascading_cut.js~cascading_cut",
     "function/index.html#static-function-cascading_cut",
-    "<span>cascading_cut</span> <span class=\"search-result-import-path\">@aureooms/js-fibonacci-heap/src/cascading_cut.js</span>",
+    "<span>cascading_cut</span> <span class=\"search-result-import-path\">@heap-data-structure/fibonacci-heap/src/cascading_cut.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-fibonacci-heap/src/consolidate.js~consolidate",
+    "@heap-data-structure/fibonacci-heap/src/consolidate.js~consolidate",
     "function/index.html#static-function-consolidate",
-    "<span>consolidate</span> <span class=\"search-result-import-path\">@aureooms/js-fibonacci-heap/src/consolidate.js</span>",
+    "<span>consolidate</span> <span class=\"search-result-import-path\">@heap-data-structure/fibonacci-heap/src/consolidate.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-fibonacci-heap/src/cut.js~cut",
+    "@heap-data-structure/fibonacci-heap/src/cut.js~cut",
     "function/index.html#static-function-cut",
-    "<span>cut</span> <span class=\"search-result-import-path\">@aureooms/js-fibonacci-heap/src/cut.js</span>",
+    "<span>cut</span> <span class=\"search-result-import-path\">@heap-data-structure/fibonacci-heap/src/cut.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-fibonacci-heap/src/link.js~link",
+    "@heap-data-structure/fibonacci-heap/src/link.js~link",
     "function/index.html#static-function-link",
-    "<span>link</span> <span class=\"search-result-import-path\">@aureooms/js-fibonacci-heap/src/link.js</span>",
+    "<span>link</span> <span class=\"search-result-import-path\">@heap-data-structure/fibonacci-heap/src/link.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-fibonacci-heap/src/list_reset_parent.js~list_reset_parent",
+    "@heap-data-structure/fibonacci-heap/src/list_reset_parent.js~list_reset_parent",
     "function/index.html#static-function-list_reset_parent",
-    "<span>list_reset_parent</span> <span class=\"search-result-import-path\">@aureooms/js-fibonacci-heap/src/list_reset_parent.js</span>",
+    "<span>list_reset_parent</span> <span class=\"search-result-import-path\">@heap-data-structure/fibonacci-heap/src/list_reset_parent.js</span>",
     "function"
   ],
   [
