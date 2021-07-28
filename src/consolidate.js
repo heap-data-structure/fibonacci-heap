@@ -1,4 +1,4 @@
-import {_append as list_insert} from '@aureooms/js-cll';
+import {_append as list_insert} from '@data-structure-algebra/circularly-linked-list';
 import link from './link.js';
 
 /**

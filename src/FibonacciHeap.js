@@ -4,7 +4,7 @@ import {
 	_append as list_insert,
 	_remove as list_remove,
 	_concat as list_concatenate,
-} from '@aureooms/js-cll';
+} from '@data-structure-algebra/circularly-linked-list';
 
 import list_reset_parent from './list_reset_parent.js';
 

@@ -1,4 +1,4 @@
-import {_remove as list_remove} from '@aureooms/js-cll';
+import {_remove as list_remove} from '@data-structure-algebra/circularly-linked-list';
 
 export default function cut(x, y) {
 	if (x === x.next) y.children = null;
