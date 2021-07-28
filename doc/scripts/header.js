@@ -18,7 +18,7 @@ domReady(() => {
 
 	const testlink = document.querySelector('header > a[data-ice="testLink"]');
 	testlink.href =
-		'https://coveralls.io/github/heap-data-structure/fibonacci-heap';
+		'https://app.codecov.io/gh/heap-data-structure/fibonacci-heap';
 	testlink.target = '_BLANK';
 
 	const searchBox = document.querySelector('.search-box');
