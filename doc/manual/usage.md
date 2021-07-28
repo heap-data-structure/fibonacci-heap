@@ -5,14 +5,14 @@
 
 First, require the polyfill at the entry point of your application
 ```js
-require( 'regenerator-runtime/runtime' );
+await import( 'regenerator-runtime/runtime.js' );
 // or
 import 'regenerator-runtime/runtime.js' ;
 ```
 
 Then, import the library where needed
 ```js
-const {FibonacciHeap} = require( '@heap-data-structure/fibonacci-heap' ) ;
+const {FibonacciHeap} = await import( '@heap-data-structure/fibonacci-heap' ) ;
 // or
 import {FibonacciHeap} from '@heap-data-structure/fibonacci-heap' ;
 ```

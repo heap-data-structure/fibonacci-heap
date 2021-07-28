@@ -19,6 +19,7 @@
     "structure"
   ],
   "sideEffects": false,
+  "type": "module",
   "source": "src/index.js",
   "main": "dist/index.cjs",
   "module": "dist/index.module.js",
