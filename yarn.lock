@@ -2,50 +2,6 @@
 # yarn lockfile v1
 
 
-"@aureooms/js-collections-deque@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@aureooms/js-collections-deque/-/js-collections-deque-3.1.0.tgz#2df0f28883f1367c979232d8c3964aede93d2ded"
-  integrity sha1-LfDyiIPxNnyXkjLYw5ZK7ek9Le0=
-  dependencies:
-    "@aureooms/js-error" "^3.0.0"
-
-"@aureooms/js-compare@^1.4.5":
-  version "1.4.8"
-  resolved "https://registry.yarnpkg.com/@aureooms/js-compare/-/js-compare-1.4.8.tgz#c6bff1091f4a2e211f449299572d9f195146fc59"
-  integrity sha512-Z26PU6OmuhS7ZJsELTKImmipF7J+KCOyN70wBhhVIhmqUhXY6C3JpJHAev6wNBkC4ThlQt3zO6p/OmBFIq76Qg==
-
-"@aureooms/js-error@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@aureooms/js-error/-/js-error-3.0.0.tgz#c06a455569c4cb26c3792ab9c9f075da707823de"
-  integrity sha1-wGpFVWnEyybDeSq5yfB12nB4I94=
-
-"@aureooms/js-functools@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@aureooms/js-functools/-/js-functools-2.0.3.tgz#5139d6245278193da4cf21c44666797bf40a1d6e"
-  integrity sha1-UTnWJFJ4GT2kzyHERmZ5e/QKHW4=
-
-"@aureooms/js-heap-spec@15.0.3":
-  version "15.0.3"
-  resolved "https://registry.yarnpkg.com/@aureooms/js-heap-spec/-/js-heap-spec-15.0.3.tgz#7511d74722da20b4379b709f2ab17f0bd39482a2"
-  integrity sha512-Ibp3wYGkrpKPE/xGG8erLAa7qkPYMJv7cnEaAuS2BG9Jb/FA7M4HT9BZi4HAPPktVDiviv4YtF8Rr1wKnQYQWA==
-  dependencies:
-    "@aureooms/js-compare" "^1.4.5"
-    "@aureooms/js-functools" "^2.0.3"
-    "@aureooms/js-itertools" "^3.4.0"
-    "@aureooms/js-random" "^2.0.0"
-
-"@aureooms/js-itertools@^3.4.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@aureooms/js-itertools/-/js-itertools-3.4.0.tgz#2140cd62e5ae706402afef2e82f924658e0403e2"
-  integrity sha512-lVOnOr1Fo+fdaT20wBEz2q+KOQ145yFB0WNbqY6FkeB2xQrW+Xi9bzwG1kQ9fP5eOQnhyXvBdpYK90AkkZufmA==
-  dependencies:
-    "@aureooms/js-collections-deque" "^3.1.0"
-
-"@aureooms/js-random@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@aureooms/js-random/-/js-random-2.0.0.tgz#f62c6954ed79bd9a520197125ee3cfbe14b00d72"
-  integrity sha1-9ixpVO15vZpSAZcSXuPPvhSwDXI=
-
 "@babel/code-frame@7.12.11":
   version "7.12.11"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.12.11.tgz#f4ad435aa263db935b8f10f2c552d23fb716a63f"
@@ -1178,6 +1134,13 @@
   resolved "https://registry.yarnpkg.com/@data-structure-algebra/circularly-linked-list/-/circularly-linked-list-2.1.0.tgz#a9856c512fa70a0ac98d59e37fb4468b58c22808"
   integrity sha512-6uKt5l9Zc6HxQ+8wEbJQ+7F1n9F+dU8JNz8DC0MST9twGEn4b2FUmAraJl361sn8k4GQvau3rdWs7vJeJc0PGg==
 
+"@data-structure/deque@^9.0.0":
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/@data-structure/deque/-/deque-9.0.1.tgz#756f8a80d5bc3fe2be18a5739d051493397a6367"
+  integrity sha512-/LSOEPmWGZ10OiKfje06GNDM/fzbY1ZfXyvZKr+/a79ZTlGoTwsQW1uPvtmQDtBzs2h2VbPjHho4zNSP5YH0Zg==
+  dependencies:
+    "@failure-abstraction/error" "^6.0.1"
+
 "@eslint/eslintrc@^0.4.3":
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-0.4.3.tgz#9e42981ef035beb3dd49add17acb96e8ff6f394c"
@@ -1192,6 +1155,30 @@
     js-yaml "^3.13.1"
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
+
+"@failure-abstraction/error@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@failure-abstraction/error/-/error-6.0.1.tgz#ab6929395c7ed3ec74d86db2976e74e31f9569e2"
+  integrity sha512-KvIHhvwfrgbUduQbk55WRDGL2XcXjDLwleId+pSnK7mUUIY7zMGMy3N+ouDcOFymme48tKDlarKsYj5mEEd3fg==
+
+"@functional-abstraction/functools@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@functional-abstraction/functools/-/functools-3.0.2.tgz#19c51ebb30b1e699ef9f30d2dcdbe1f11b1c9852"
+  integrity sha512-CL5aTFWBa+zoiwLFePQhvSJr/aX2nEG69dqAp7Zf3D2I/DGHE+KNe31DNJdNCZtJJPthsVg17qyMXldabre2Lw==
+
+"@heap-data-structure/specification@16.0.0":
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/@heap-data-structure/specification/-/specification-16.0.0.tgz#268f0030d949fa64bffca82e097bab4c312d10c0"
+  integrity sha512-g7BISWntotMaSP+YBoARFKw40SELQrTOmM2H80dej5P2O2Vvn6z7TyBAwTNkgv7u1yN5VDnibtTIvEFX1KC2Ow==
+  dependencies:
+    "@functional-abstraction/functools" "^3.0.2"
+    "@iterable-iterator/chain" "^2.0.1"
+    "@iterable-iterator/consume" "^1.0.1"
+    "@iterable-iterator/list" "^1.0.1"
+    "@iterable-iterator/map" "^1.0.1"
+    "@randomized/random" "^4.0.0"
+    "@set-theory/cartesian-product" "^2.0.1"
+    "@total-order/primitive" "^1.0.1"
 
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
@@ -1211,6 +1198,53 @@
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.3.tgz#e45e384e4b8ec16bce2fd903af78450f6bf7ec98"
   integrity sha512-ZXRY4jNvVgSVQ8DL3LTcakaAtXwTVUxE81hslsyD2AtoXW/wVob10HkOJ1X/pAlcI7D+2YoZKg5do8G/w6RYgA==
+
+"@iterable-iterator/chain@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@iterable-iterator/chain/-/chain-2.0.1.tgz#b02068df99408ac94c446f895b4e985eb0cd1938"
+  integrity sha512-mWd0nx1knSaJ6kcysBFtjcQd18iBaDgY0Rlr6crcBg11cMwVRkjaz56w2gBTe6No9JmoYOwsXxPNWpAeF7eAoA==
+
+"@iterable-iterator/consume@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@iterable-iterator/consume/-/consume-1.0.1.tgz#abbe00af0d48542eb8e240f698e85fd4ba9b28b0"
+  integrity sha512-KVJufzV8/gOnYqrtO4CFdGZopJ5kkUBhzHcbU0iToOv5aTl0igxnsRzCaDSxUgO4q0mDbf9WEfjz4K39cl1iNA==
+
+"@iterable-iterator/count@^1.0.0":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@iterable-iterator/count/-/count-1.0.1.tgz#37c13ff5cb43528280fcf0c2c0791475ebff4cf2"
+  integrity sha512-nLBcrNownYvXgye2CVnQvTjZ5d3C2b/5nrySDvQ9/7ej5pGSfkvYvIl4xcZcocViwIa49p6/72nkcDC1xkvpJg==
+
+"@iterable-iterator/cycle@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@iterable-iterator/cycle/-/cycle-1.0.0.tgz#1cdb2e4a72c54e351145b23af31b4a1bb2919e0d"
+  integrity sha512-mJevpq7it2NEQ44c24Do2tg6O/Mvzpyo5ydHpqhT1+R1/VTc21Spw6bKio87Fnfz5fdCJ5pQQY+Ey2gdj8b3hw==
+
+"@iterable-iterator/iter@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@iterable-iterator/iter/-/iter-1.0.1.tgz#11149acef0d28b689e0b998dc478113eda81871d"
+  integrity sha512-/C/Ciq69we9C0wvqx0rOdnpXAoSW+UnyIV/ZQrUYDzmtguvUQ4HjiIPcU2Csdh705VS6TMkUhoaBHIGh44V3OA==
+
+"@iterable-iterator/list@^1.0.0", "@iterable-iterator/list@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@iterable-iterator/list/-/list-1.0.1.tgz#e84fd841d7d58c2ad6d0c026f0612c8228dc97f5"
+  integrity sha512-234a2cf0a0YhD1Ofb3F0xSjXDkqDK1xCiLnXoMUt/DWAt/odAvJToaxEFMemiKlAUvqF6E8MSi2v2UvlIOpBUA==
+
+"@iterable-iterator/map@^1.0.0", "@iterable-iterator/map@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@iterable-iterator/map/-/map-1.0.1.tgz#7e4d82cb86877bf487e075347fde990ed21844da"
+  integrity sha512-lUvX8/OCYRdof3eZii8ntJUvqW1MlL2ESkIcQj3cagajKVfBIBj058wE4ScrzQl6U2udMva/n2NwP70smdfZ+g==
+
+"@iterable-iterator/next@^2.0.0":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@iterable-iterator/next/-/next-2.0.1.tgz#b58a7471984cd1165e3b93e3fea646f4137b370f"
+  integrity sha512-D4E5JSH7xFEQqmJI8XMaotest1L1RM6wJssEDFRva81oZNZwPYmTlKErPZZVLnrZU/wTflEVwrImxUacoIZK3Q==
+  dependencies:
+    "@failure-abstraction/error" "^6.0.1"
+
+"@iterable-iterator/reversed@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@iterable-iterator/reversed/-/reversed-1.0.0.tgz#6e656396b4453e4650c081d571fa4ba7ab3134e8"
+  integrity sha512-nCy0OINBy6h1dcj75twbIW0oA5KhJ7Aweif/8kdUdAR86e5gb/byedt0LL72cjHB75VRbQY06f9WxZc8d7uPYA==
 
 "@js-library/commitlint-config@0.0.4":
   version "0.0.4"
@@ -1250,6 +1284,11 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
+
+"@randomized/random@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@randomized/random/-/random-4.0.0.tgz#3664429ea3fd97a1bf321897d03e4681fd7b00c7"
+  integrity sha512-4dG15onq/4tXLMTrG12hRrlL3/hJ8yJbWc4YD3db45z5P5UtRqSQRqaW518YkXhXaIsLX1pA78FJBDl8jg85sw==
 
 "@rollup/plugin-alias@^3.1.1":
   version "3.1.4"
@@ -1314,6 +1353,20 @@
   dependencies:
     any-observable "^0.3.0"
 
+"@set-theory/cartesian-product@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@set-theory/cartesian-product/-/cartesian-product-2.0.1.tgz#5b80994ae53e4c80e369c78cb369845de18d229c"
+  integrity sha512-ifjwAGPY52Dvmtm1jQV+6jEdHlKg9nMCnogb96YtbckUN9uESDK8slMRy0nQHFGf61i1kjVNGKMzOrGzFZJZkw==
+  dependencies:
+    "@data-structure/deque" "^9.0.0"
+    "@iterable-iterator/count" "^1.0.0"
+    "@iterable-iterator/cycle" "^1.0.0"
+    "@iterable-iterator/iter" "^1.0.1"
+    "@iterable-iterator/list" "^1.0.0"
+    "@iterable-iterator/map" "^1.0.0"
+    "@iterable-iterator/next" "^2.0.0"
+    "@iterable-iterator/reversed" "^1.0.0"
+
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
@@ -1342,6 +1395,11 @@
   integrity sha512-4BAffykYOgO+5nzBWYwE3W90sBgLJoUPRWWcL8wlyiM8IB8ipJz3UMJ9KXQd1RKQXpKp8Tutn80HZtWsu2u76w==
   dependencies:
     defer-to-connect "^2.0.0"
+
+"@total-order/primitive@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@total-order/primitive/-/primitive-1.0.1.tgz#7e409d303a2a3b24ed2af30bd9068027d6a4a326"
+  integrity sha512-BXCXyXoQIpdwFkplPRTuxFB0I1GHHia4t22bLAEqjdk48DFwQMwSbHq1EdLA81X/eFC/b6RdVxG4Q+WEcfs0aA==
 
 "@types/cacheable-request@^6.0.1":
   version "6.0.2"
