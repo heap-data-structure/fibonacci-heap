@@ -1129,10 +1129,10 @@
   dependencies:
     arrify "^1.0.1"
 
-"@data-structure-algebra/circularly-linked-list@^2.0.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@data-structure-algebra/circularly-linked-list/-/circularly-linked-list-2.1.0.tgz#a9856c512fa70a0ac98d59e37fb4468b58c22808"
-  integrity sha512-6uKt5l9Zc6HxQ+8wEbJQ+7F1n9F+dU8JNz8DC0MST9twGEn4b2FUmAraJl361sn8k4GQvau3rdWs7vJeJc0PGg==
+"@data-structure-algebra/circularly-linked-list@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@data-structure-algebra/circularly-linked-list/-/circularly-linked-list-3.0.0.tgz#a9e96730c3f23129a204ca1e2e634dc8142993c5"
+  integrity sha512-+JcWBqmMOVogDPz2SLiOue4kGO2AEc6IgqlvAXVBeO+CBmP04MCL9vbC/Gte9g7dsTmRY9NXzGMLs9oJmmwx2A==
 
 "@data-structure/deque@^9.0.0":
   version "9.0.1"
