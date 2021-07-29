@@ -61,7 +61,7 @@
     "test": "ava"
   },
   "dependencies": {
-    "@data-structure-algebra/circularly-linked-list": "^2.0.0"
+    "@data-structure-algebra/circularly-linked-list": "^3.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.14.8",
