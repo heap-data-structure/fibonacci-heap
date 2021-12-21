@@ -1190,10 +1190,10 @@
   resolved "https://registry.yarnpkg.com/@functional-abstraction/functools/-/functools-3.0.2.tgz#19c51ebb30b1e699ef9f30d2dcdbe1f11b1c9852"
   integrity sha512-CL5aTFWBa+zoiwLFePQhvSJr/aX2nEG69dqAp7Zf3D2I/DGHE+KNe31DNJdNCZtJJPthsVg17qyMXldabre2Lw==
 
-"@heap-data-structure/specification@16.0.0":
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/@heap-data-structure/specification/-/specification-16.0.0.tgz#268f0030d949fa64bffca82e097bab4c312d10c0"
-  integrity sha512-g7BISWntotMaSP+YBoARFKw40SELQrTOmM2H80dej5P2O2Vvn6z7TyBAwTNkgv7u1yN5VDnibtTIvEFX1KC2Ow==
+"@heap-data-structure/specification@16.0.1":
+  version "16.0.1"
+  resolved "https://registry.yarnpkg.com/@heap-data-structure/specification/-/specification-16.0.1.tgz#13b34c3381bfdf57a8f210877e84463150484792"
+  integrity sha512-mNgwYuaXqXRDb5ukjLTPyLCz8w2K0+4gnvP0AGvicHqt+wLS/CaO2DBIrNvIUplaRVaLunqncoI4IN/PYh1x7w==
   dependencies:
     "@functional-abstraction/functools" "^3.0.2"
     "@iterable-iterator/chain" "^2.0.1"
@@ -1201,7 +1201,7 @@
     "@iterable-iterator/list" "^1.0.1"
     "@iterable-iterator/map" "^1.0.1"
     "@randomized/random" "^4.0.0"
-    "@set-theory/cartesian-product" "^2.0.1"
+    "@set-theory/cartesian-product" "^2.0.2"
     "@total-order/primitive" "^1.0.1"
 
 "@humanwhocodes/config-array@^0.9.2":
@@ -1364,7 +1364,7 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@set-theory/cartesian-product@^2.0.1":
+"@set-theory/cartesian-product@^2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@set-theory/cartesian-product/-/cartesian-product-2.0.2.tgz#1a692a63c7d9bf1e4721b5fc82f8df9570c29c6d"
   integrity sha512-tDq7FjuDHW6EgR/wGP6Uas0xvFTIxnoaE39aS/yI2QOKlb/Lc820JoWXhYNwBL9TaR3mL5KlXJxmmoVejzeSjQ==
@@ -1516,7 +1516,7 @@
   dependencies:
     "@types/node" "*"
 
-"@typescript-eslint/eslint-plugin@*":
+"@typescript-eslint/eslint-plugin@^5.4.0":
   version "5.8.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.8.0.tgz#52cd9305ceef98a5333f9492d519e6c6c7fe7d43"
   integrity sha512-spu1UW7QuBn0nJ6+psnfCc3iVoQAifjKORgBngKOmC8U/1tbe2YJMzYQqDGYB4JCss7L8+RM2kKLb1B1Aw9BNA==
@@ -1542,7 +1542,7 @@
     eslint-scope "^5.1.1"
     eslint-utils "^3.0.0"
 
-"@typescript-eslint/parser@*":
+"@typescript-eslint/parser@^5.4.0":
   version "5.8.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.8.0.tgz#b39970b21c1d7bc4a6018507fb29b380328d2587"
   integrity sha512-Gleacp/ZhRtJRYs5/T8KQR3pAQjQI89Dn/k+OzyCKOsLiZH2/Vh60cFBTnFsHNI6WAD+lNUo/xGZ4NeA5u0Ipw==
@@ -3624,7 +3624,7 @@ eslint-config-prettier@^8.3.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
   integrity sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==
 
-eslint-config-xo-typescript@*:
+eslint-config-xo-typescript@^0.47.1:
   version "0.47.1"
   resolved "https://registry.yarnpkg.com/eslint-config-xo-typescript/-/eslint-config-xo-typescript-0.47.1.tgz#87b5865d8a3428fa26cc8dc3146ef4f712dfed46"
   integrity sha512-BkbzIltZCWp8QLekKJKG8zJ/ZGezD8Z9FaJ+hJ5PrAVUGkIPmxXLLEHCKS3ax7oOqZLYQiG+jyKfQDIEdTQgbg==
