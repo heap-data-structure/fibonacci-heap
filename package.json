@@ -64,7 +64,7 @@
     "@data-structure-algebra/circularly-linked-list": "^3.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.18.2",
+    "@babel/core": "7.18.5",
     "@babel/preset-env": "7.18.2",
     "@babel/register": "7.17.7",
     "@commitlint/cli": "17.0.2",
