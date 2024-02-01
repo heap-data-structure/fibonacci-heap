@@ -4,9 +4,7 @@ import {
 	_concat as list_concatenate,
 } from '@data-structure-algebra/circularly-linked-list';
 import Node from './Node.js';
-
 import list_reset_parent from './list_reset_parent.js';
-
 import consolidate from './consolidate.js';
 import cut from './cut.js';
 import cascading_cut from './cascading_cut.js';
