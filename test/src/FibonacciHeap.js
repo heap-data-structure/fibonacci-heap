@@ -1,6 +1,8 @@
 // eslint-disable-next-line ava/use-test
 import ava from 'ava';
+
 import * as spec from '@heap-data-structure/specification';
+
 import {FibonacciHeap} from '#module';
 
 const heaps = [['FibonacciHeap', (compare) => new FibonacciHeap(compare)]];
