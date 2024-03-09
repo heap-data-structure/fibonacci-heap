@@ -16,7 +16,7 @@ let heap = new FibonacciHeap( increasing ) ;
 
 [![License](https://img.shields.io/github/license/heap-data-structure/fibonacci-heap.svg)](https://raw.githubusercontent.com/heap-data-structure/fibonacci-heap/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@heap-data-structure/fibonacci-heap.svg)](https://www.npmjs.org/package/@heap-data-structure/fibonacci-heap)
-[![Tests](https://img.shields.io/github/workflow/status/heap-data-structure/fibonacci-heap/ci?event=push&label=tests)](https://github.com/heap-data-structure/fibonacci-heap/actions/workflows/ci.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/actions/workflow/status/heap-data-structure/fibonacci-heap/ci.yml?branch=main&event=push&label=tests)](https://github.com/heap-data-structure/fibonacci-heap/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/heap-data-structure/fibonacci-heap.svg)](https://github.com/heap-data-structure/fibonacci-heap/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/heap-data-structure/fibonacci-heap.svg)](https://github.com/heap-data-structure/fibonacci-heap/issues)
 [![Downloads](https://img.shields.io/npm/dm/@heap-data-structure/fibonacci-heap.svg)](https://www.npmjs.org/package/@heap-data-structure/fibonacci-heap)
