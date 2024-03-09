@@ -201,7 +201,8 @@
     ],
     "rules": {
       "camelcase": "off",
-      "unicorn/filename-case": "off"
+      "unicorn/filename-case": "off",
+      "unicorn/prefer-node-protocol": "off"
     },
     "overrides": [
       {
