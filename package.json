@@ -71,8 +71,8 @@
     "@data-structure-algebra/circularly-linked-list": "^3.0.0"
   },
   "devDependencies": {
-    "@babel/core": "7.26.10",
-    "@babel/preset-env": "7.26.9",
+    "@babel/core": "7.27.1",
+    "@babel/preset-env": "7.27.1",
     "@commitlint/cli": "19.8.0",
     "@heap-data-structure/specification": "16.0.1",
     "@js-library/commitlint-config": "0.0.4",
